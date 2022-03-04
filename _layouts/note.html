@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% if page.category == 'wiki' or page.category == 'post' %}
+<ul class="breadcrumb sans">
+    <li><a class="internal-link" href="#">Roots</a></li>
+    <li>{{ page.title }}</li>
+</ul>
+{% endif %}
+
+<article>
+  {% include metadata.html layoutType="note" %}
+  <div id="notes-entry-container">
+    <content>
+      {{ content }}
+    </content>
+    <hr>
+    <div class="shell">
+      {% include backlinks.html %}
+    </div>
+  </div>
+</article>
+{% include link-previews.html wrapperQuerySelector="content" %}
+

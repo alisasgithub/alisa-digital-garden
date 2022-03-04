@@ -1,0 +1,40 @@
+---
+layout: default
+class: photoessay
+---
+<!-- <ul class="breadcrumb">
+    <li><a class="internal-link" href="#">Creative</a></li>
+    <li><a class="internal-link uppercase" href="#">{{ page.category }}</a></li>
+    <li>{{ page.title }}</li>
+</ul> -->
+
+<div>
+    {% include metadata.html layoutType="photoessay" %}
+
+    <div id="notes-entry-container">
+    <content>
+        {{ content }}
+    </content> 
+    <div id="gallery">
+        <ul>
+        {% for image in site.static_files %}
+        {% if image.path contains page.url %}
+            <li>
+                <img class="photoessay" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>  
+    </div>
+
+</div>
+
+{% include backlinks.html %}
+
+  <style>
+      #backlinks {
+          width: 75%;
+          margin: 0 auto;
+      }
+      
+  </style>

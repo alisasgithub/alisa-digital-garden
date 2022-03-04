@@ -1,0 +1,1017 @@
+@charset "UTF-8";
+
+/* Import ET Book styles
+   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
+
+@font-face {
+    font-family: "et-book";
+    src: url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$color-primary: #E53109;
+$color-text: hsl(0, 0, 10%);
+$color-subtext: hsl(0, 0%, 36%);
+$color-border: hsl(0, 0%, 64%);
+$color-growth: #4F9130;
+$color-dirt: #ae4c13;
+$color-box-background: rgba($color-primary, 0.02);
+$border-radius: 8px;
+$box-shadow: 0 12px 12px rgba(105, 33, 69, 0.05), 0 4px 6px rgba(105, 33, 69, 0.05); // Also defined in link-preview
+// $font-family: 'Merriweather', serif;
+
+.color-primary {
+  color: $color-primary;
+}
+
+.sans {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  letter-spacing: .03em;
+}
+
+.grow {
+
+  transition: all .2s ease-in-out;; 
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+body {
+  margin: 0 auto;
+  color: $color-text;
+  background-color: $color-box-background;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  counter-reset: sidenote-counter;
+
+  @media (min-width: 820px) {
+    font-size: 1.2rem;
+    width: 60%;
+    max-width: 1100px;
+  }
+
+  @media only screen and (min-width: 761px) and (max-width: 1200px) {
+    width: 90%;
+  }
+
+  &.page {
+    h2 {
+
+      a {
+        transition: color 200ms;
+        border-bottom: none;
+        color: $color-text;
+        background-color: transparent;
+
+        &:hover {
+          border: none;
+          background-color: transparent;
+          color: $color-primary !important;
+        }
+      }
+    }
+  }
+
+  &.photoessay {
+    background-color: #FFFFFF;
+    
+    @media (min-width: 820px) {
+      font-size: 1.2rem;
+      width: 80%;
+      max-width: 2200px;
+    }
+  
+    @media only screen and (max-width: 1200px) {
+      width: 96%;
+    }
+
+    nav, footer, .metadata, p {
+      width: 75%; // keeps nav, header, footer, at the same spot as on other pages
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .wrapper {
+    clear: both;
+  }
+}
+
+#notes-entry-container {
+  margin-top: 4rem;
+}
+
+.metadata {
+  h1 {
+    margin-top: 0.5rem;
+  }
+}
+
+
+time {
+  display: block;
+  color: $color-subtext;
+  margin: 0.5em 0 1em;
+}
+
+img {
+  max-width: 100%;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  &.photoessay {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+blockquote {
+  font-size: 1.4rem;
+
+  p {
+    margin-right: 40px;
+  }
+
+  footer {
+    font-size: 1.1rem;
+    text-align: right;
+  }
+}
+
+hr {
+  width: 100%;
+  max-width: 829px;
+  border: 0;
+  border-top: 1px dashed $color-border;
+  height: 1px;
+  margin: 5em 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 400;
+}
+
+p,
+dl,
+ol,
+ul {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+p {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    padding-right: 0;
+    vertical-align: baseline;
+}
+
+a {
+  transition: color 200ms;
+  padding: 0 0.1em;
+  text-decoration: none;
+  // border-bottom: 1px solid $color-primary;
+  color: darken($color-primary, 15%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: 100;
+  font-size:0.9em;
+  &:hover {
+    color: $color-primary !important;
+  }
+  &:after {
+    position: relative;
+    border-bottom: none;
+    top: -0.5em;
+    font-size: 0.7em;
+    content: "↗";
+    color: darken($color-primary, 20%);
+    
+  }
+  &.internal-link:after,
+  &.footnote:after,
+  &.reversefootnote:after {
+    content: "";
+  }
+  &.internal-link {
+    transition: background 300ms;
+    font-size: 1em;
+    color: $color-text;
+    border-bottom: 1px solid $color-primary;
+    background-color: rgba($color-primary, 0.08);
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+    &:hover {
+      color: $color-text !important;
+      background-color: rgba($color-primary, 0.2);
+    }
+  }
+}
+
+ul, ol {
+  li::marker {
+    color: rgba($color-text, 0.5);
+    font-weight: bold;
+    list-style-type: circle;
+  }
+}
+
+
+// navigation styles
+nav {
+  margin: 2.8rem 0 5rem;
+}
+
+nav, footer {
+  a {
+    &.internal-link {
+      transition: color 200ms;
+      border-bottom: none;
+      color: $color-primary;
+      background-color: transparent;
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+    }
+
+    &.hover-underline-animation {
+      display: inline-block;
+      position: relative;
+    }
+    
+    &.hover-underline-animation:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      top: 100%;
+      left: 0;
+      background-color: $color-primary;
+      transform-origin: bottom right;
+      transition: transform 200ms ease-out;
+    }
+    
+    &.hover-underline-animation:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+}
+
+.menu {
+  width: 60%;
+  height: 100%;
+
+  ul {
+    // width: 150px;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    min-width: 175px;
+
+    a {
+      // width: 20%;
+      border-bottom: none;
+      text-align: right;
+      text-transform: lowercase;
+    }
+  }
+
+  li {
+    padding: 0 0.75em;
+    list-style: none;
+  }
+
+  dt:not(:first-child), li:not(:first-child) {
+    margin-top: 0;
+  }
+}
+
+footer {
+  margin: 6em 0 3em;
+  color: mix($color-text, white, 80%);
+  padding-top: 1em;
+
+  .menu {
+      width: 100%;
+
+      ul {
+        float: left;
+      }
+
+      li {
+        padding: 0 1.5em 0 0;
+        font-size: 0.75em;
+      }
+  }
+}
+
+#menuToggle {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+
+// @media screen and (min-width: 701px) {
+//   .menu {
+//     padding-right: 12.5%;
+//   }
+// }
+
+@media screen and (max-width: 760px) {
+  .menu {
+    width: 100%;
+    height: auto;
+
+    ul {
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      padding-right: 0;
+      -webkit-transition: max-height 0.3s;
+      -moz-transition: max-height 0.3s;
+      -ms-transition: max-height 0.3s;
+      -o-transition: max-height 0.3s;
+      transition: max-height 0.3s;
+        /*To make the menu exit from the left, you must change max-height to max-width*/
+        /*To make the menu come out from the right, you must change max-height to max-width and set float: right*/
+      
+      li {
+        padding: 1rem 0 1rem 5%;
+        text-align: right;
+      }
+    }
+  }
+
+  .menu-icon {
+      width: 50px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 22px;
+      right: 0;
+      line-height: 60px;
+      color: $color-primary;
+
+      svg {
+        color: $color-primary;
+      }
+  }
+
+  #menuToggle:checked ~ ul {
+      max-height: 350px;
+      margin-top: 1.2rem;
+      /* Same thing above */
+  }
+}
+
+
+// Breadcrumb styles
+ul {
+  &.breadcrumb {
+    padding-right: 1em;
+    padding-left: 0;
+    list-style: none;
+    color: $color-subtext;
+  }
+
+  /* Display list items side by side */
+  &.breadcrumb li {
+    display: inline;
+    font-size: 1.2rem;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  &.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+}
+
+// List styles
+ul {
+  &.list-x {
+    padding-left: 0;
+  
+    li {
+      list-style: none;
+      padding: 0.4em 0;
+    }
+
+    a {
+      margin-right: 0.6em;
+    }
+
+    .tag {
+      padding: 0 0.3em;
+      line-height: 1.3;
+    }
+
+    .arrow {
+      float: right;
+    }
+
+    &.sans {
+      font-size: 1.2rem;
+    }
+  }
+
+  // List styles for outline
+  &.list-outline { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media screen and (max-width: 760px) {
+      grid-template-columns: 1fr;
+    }
+
+    li {
+      border: 1px solid $color-primary;
+      border-radius: 4px;
+      transition: all .2s ease-in-out; 
+      margin: 0.5rem;
+  
+      &:hover {
+        transform: scale(1.02);
+      }
+  
+      a {
+        margin: 1rem;
+        color: $color-primary;
+        font-size: 1.2rem;
+
+        &.internal-link { // internal link overrides
+          background-color: transparent;
+          border-bottom: none;
+
+          &:hover {
+            color: $color-primary !important;
+          }
+        }
+      }
+    }
+  }
+
+  // List styles for img
+  &.list-img { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+
+    li {
+      padding: 0;
+      transition: all .2s ease-in-out; 
+      // margin: 2em 0;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      a {
+        margin-right: 0;
+
+        &.internal-link {
+          background-color: transparent;
+          border-bottom: none;
+          font-size: 1.2rem;
+          line-height: 1.4;
+        }
+
+        span {
+          padding-left: 0.5em;
+        }
+      }
+
+      img {
+        height: 480px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+        box-shadow: none;
+        transition: all .3s linear; 
+
+        &:hover {
+          box-shadow: $box-shadow;
+          opacity: 0.95;
+        }
+      }
+    }
+  }
+}
+
+// Backlink styles
+
+.uppercase {
+  text-transform: capitalize;
+}
+
+.shell {
+  h3 {
+    font-variant: small-caps;
+    font-style: normal;
+  }
+}
+
+#backlinks {
+margin: 3em 0;
+max-width: 75%;
+
+@media (max-width: 760px) {
+  max-width: 100%;
+}
+
+  h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.3em;
+    font-style: normal;
+  }
+
+  h4 {
+    width: fit-content; // exclusive from internal-link
+    margin: 0; // exclusive from internal-link
+    display: inline-block; // exclusive from internal-link
+    font-weight: 300; // exclusive from internal-link
+    margin-right: 0.5em; // exclusive from internal-link
+    font-size: 1.3rem; // exclusive from internal-link
+    transition: background 300ms;
+    color: $color-text;
+    border-bottom: 1px solid $color-primary;
+    background-color: rgba($color-primary, 0.05);
+
+    &:hover {
+      color: $color-text !important;
+      background-color: rgba($color-primary, 0.2);
+    }
+  }
+
+  .backlink-box {
+    // background: #ffffff;
+    // padding: 1em;
+    // border-radius: $border-radius;
+    border-left: 3px solid $color-primary;
+    padding: 0.5rem 1.5rem 0;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin: 1rem 0 0;
+  }
+
+  a {
+    border: none;
+  }
+}
+
+code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 1.1rem;
+  line-height: 1.42;
+  -webkit-text-size-adjust: 100%;
+}
+
+.invalid-link {
+  color: #444444;
+  cursor: help;
+  background: #fafafa;
+  padding: 0 0.1em;
+}
+
+.invalid-link-brackets {
+  color: #ccc;
+  cursor: help;
+}
+
+.tag {
+  padding: 0 0.3em;
+  line-height: 1.3;
+  margin: 0;
+  display: inline-block;
+  color: $color-subtext;
+  background-color: rgba($color-subtext, 0.1);
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.tag-gr1, .tag-gr2, .tag-gr3, .tag-growth {
+  color: $color-growth;
+  background-color: rgba($color-growth, 0.1);
+}
+
+.tag-gr1 {
+  &::before {
+    content: "🥔\00a0 seed";
+  }
+}
+
+.tag-gr2 {
+  &::before {
+    content: "🌱\00a0 sprout";
+  }
+}
+
+.tag-gr3 {
+  &::before {
+    content: "🌷\00a0 blossom";
+  }
+}
+
+.tag-grx {
+  &::before {
+    content: "🕸\00a0 root";
+  }
+
+  color: $color-dirt;
+  background-color: rgba($color-dirt, 0.1);
+}
+
+// Grid with notecards
+.notecards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+
+  .card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all .2s ease-in-out; 
+    box-shadow: 0 4px 6px rgba(105, 33, 69, 0.05);
+
+    &:hover {
+      transform: scale(1.05); 
+      box-shadow: $box-shadow;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      line-height: 1.4;
+      margin: 0.5em 0;
+      font-style: normal;
+    }
+
+    time {
+      font-size: 1rem;
+      line-height: 0;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  .card-img {
+      transition: all .2s ease-in-out; 
+      margin: 2em 0;
+  
+      &:hover {
+        opacity: 0.8; 
+      }
+  
+      div {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        margin: 0.4em;
+        font-style: normal;
+      }
+  
+      img {
+        height: 480px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+  
+      // For all images on cards that need adjusting
+      #ryan-discovery {
+        object-position: 50% 20%;
+      }
+  }
+
+  .card-wiki {
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    border-radius: 4px;
+    transition: all .2s ease-in-out; 
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    div {
+      margin: 1rem;
+    }
+  }
+
+  & > a {
+    border: none;
+    background-color: transparent;
+      &:hover {
+        background-color: transparent;
+      }
+  }
+}
+
+
+
+
+// Sidenote overrides
+.sidenote,
+.marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+
+  @media only screen and (min-width: 761px) and (max-width: 1200px) {
+    width: 35%;
+    margin-right: -40%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  label.sidenote-number {
+    color: $color-primary;
+    font-weight: 600;
+  }
+}
+
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after,
+.sidenote:before {
+    font-family: et-book-roman-old-style;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.sidenote-number:after {
+  content: counter(sidenote-counter);
+  font-size: 1rem;
+  top: -0.5rem;
+  left: 0.1rem;
+}
+
+.sidenote:before {
+  content: counter(sidenote-counter) " ";
+  font-size: 1rem;
+  top: -0.5rem;
+}
+
+// Tufte classes and overrides
+
+h2, h3 {
+  font-style: normal;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+content > p, div.epigraph {
+  max-width: 75%;
+
+  @media screen and (max-width: 760px) {
+    max-width: 100%;
+  }
+}
+
+.sans {
+  font-weight: 100;
+}
+
+.numeral {
+  font-family: et-book-roman-old-style;
+}
+
+input.margin-toggle {
+  display: none;
+}
+
+label {
+  &.sidenote-number {
+    display: inline-block;
+    max-height: 2rem; /* should be less than or equal to paragraph line-height */
+  }
+
+  &.margin-toggle:not(.sidenote-number) {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+      width: 90%;
+      padding-left: 5%;
+      padding-right: 5%;
+
+      &.photoessay {
+        padding: 0;
+      }
+  }
+
+  figure {
+      max-width: 90%;
+  }
+
+  figcaption,
+  figure.fullwidth figcaption {
+      margin-right: 0%;
+      max-width: none;
+  }
+
+  blockquote {
+      margin-left: 1.5em;
+      margin-right: 0em;
+
+      p {
+        width: 100%;
+      }
+
+      footer {
+        width: 100%;
+      }
+  }
+
+  label.margin-toggle:not(.sidenote-number) {
+      display: inline;
+  }
+
+  .sidenote,
+  .marginnote {
+      display: none;
+  }
+
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+      display: block;
+      float: left;
+      left: 1rem;
+      clear: both;
+      width: 95%;
+      margin: 1rem 2.5%;
+      vertical-align: baseline;
+      position: relative;
+  }
+
+  label {
+      cursor: pointer;
+  }
+
+  div.table-wrapper,
+  table {
+      width: 85%;
+  }
+
+  img {
+      width: 100%;
+  }
+}
+
+// Figure 
+figure {
+  max-width: 75%;
+  margin: 2em 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+
+  @media screen and (max-width: 760px) {
+    max-width: 100%;
+  }
+}
+
+figure > img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 1.1rem;
+  text-align: center;
+  color: mix($color-text, white, 80%);
+  margin-top: 1rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.fullwidth {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 98vw;
+
+  @media screen and (min-width: 761px) {
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -44vw;
+      margin-right: -44vw;
+      max-width: 88vw;
+    }
+}
+
+span.newthought {
+  font-variant: small-caps;
+  font-size: 1.2em;
+}
+
+// Gallery CSS
+#gallery {
+  line-height:0;
+  -webkit-column-count:2; 
+  -webkit-column-gap:1rem; 
+  -moz-column-count:2;
+  -moz-column-gap:1rem;
+  column-count:2;
+  column-gap:1.3em;
+  margin: 3em 0;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+
+    li {
+      margin-top: 0;
+    }
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:1rem; /* to match column gap */
+  }
+
+  @media (max-width: 700px) {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+     img {
+       margin-bottom: 0;
+     }
+  }
+}
+
+// Utility
+.no-margin-left
+  {
+    margin-left: 0;
+  }

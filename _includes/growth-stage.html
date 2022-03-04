@@ -1,0 +1,14 @@
+{% case include.growth %}
+    {% when "growth-1" %}
+        <span class="tag tag-gr1 sans"></span>
+    {% when "growth-2" %}
+        <span class="tag tag-gr2 sans"></span>    
+    {% when "growth-3" %}
+        <span class="tag tag-gr3 sans"></span>
+    {% when "growth-x" %}
+        <span class="tag tag-grx sans"></span>
+    {% else %}
+        <span>Invalid growth stage!</span>
+{% endcase %}
+
+

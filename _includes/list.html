@@ -1,0 +1,38 @@
+{% if include.listCategory == 'wiki' %}
+    {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'title' %}
+{% else %} 
+    {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}
+{% endif %}
+
+
+
+<ul class="list-x list-{{ include.listType }}">
+    {% for note in listOfNotes %}
+        <li>
+            <a class="internal-link" href="{{ note.url }}">
+                {% if include.listType == 'img' %}
+                    {% for image in site.static_files %}
+                        {% if image.path contains note.url %}
+                            <img id="{{ note.class }}" src="{{ site.baseurl }}{{ image.path }}" />
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                <span>{{ note.title }}</span>
+            </a>
+            {% if include.listGrowth == true %}
+                {% include growth-stage.html growth=note.growth %}
+            {% endif %}
+            {% if include.listType == 'img' %}
+                <span class="color-primary grow arrow">&#8594;</span>
+            {% endif %}
+            {% if include.listTag == true %}
+                {% if note.tag != null %}
+                    <span class="tag sans">{{ note.tags.first }}</span>
+                {% endif %}
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+
+

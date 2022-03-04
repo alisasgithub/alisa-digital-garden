@@ -1,0 +1,19 @@
+{% if page.backlinks.size > 0 %}
+    <div id="backlinks" style="font-size: 0.9em">
+        <h3 class="newthought">Connected plant matter</h3>
+        <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
+            {% for backlink in page.backlinks %}
+            <div class="backlink-box">
+                <h4 class="backlink-title">
+                    <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
+                        {{ backlink.title }}
+                    </a>
+                </h4>
+                {% include growth-stage.html growth=backlink.growth %}
+                {% if backlink.tag != null %}<span class="tag sans">{{ backlink.tags.first }}</span>{% endif %}
+            <p style="font-size: 1em">{{ backlink.excerpt | strip_html | truncatewords: 40 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}
