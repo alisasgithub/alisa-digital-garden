@@ -7,7 +7,7 @@ growth: growth-3
 category: writing
 ---
 
-Lately, I've been ~~bugged by~~ interested in how emojis have different vibes depending on what platform you're on. For example, the joy emoji looks different depending on what app or operating system the viewer is using. If you send a joy emoji on your iPhone but your friend reads it on a PC, you'll see different imagery. I'm talking about this: 
+<span class="newthought">Lately,</span> I've been ~~bugged by~~ interested in how emojis have different vibes depending on what platform you're on. For example, the joy emoji looks different depending on what app or operating system the viewer is using. If you send a joy emoji on your iPhone but your friend reads it on a PC, you'll see different imagery. I'm talking about this: 
 
 {% include figure.html imgURL="/assets/visuals/emoji-vibes/emoji-by-platform.jpg" imgCaption="ohoho" %}
 

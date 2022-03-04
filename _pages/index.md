@@ -20,9 +20,5 @@ Roots contain the messy processes behind my projects, like wiki notes and stream
     max-width: 46em;
   }
 
-  h2 {
-    &:not(:first-of-type) {
-        margin-top: 2em;
-      }
-  }
+
 </style>

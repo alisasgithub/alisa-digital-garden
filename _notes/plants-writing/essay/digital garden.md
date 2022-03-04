@@ -9,7 +9,7 @@ growth: growth-3
 category: writing
 ---
 
-Digital gardens are a philosophy of sharing content. It's similar to blogging, but instead of sharing isolated posts each time, you post unfinished ideas that you come back to, build on, connect, and eventually grow into more polished states. It emphasizes *doing* over *getting done*.
+<span class="newthought">Digital gardens</span> are a philosophy of sharing content. It's similar to blogging, but instead of sharing isolated posts each time, you post unfinished ideas that you come back to, build on, connect, and eventually grow into more polished states. It emphasizes *doing* over *getting done*.
 
 **Imperfection** and **learning in public** are key tenets of the digital garden.{% include sidenote.html sidenote="As defined by Maggie Appleton in her ethos doc." sidenoteID="tenets" sidenoteURL="https://maggieappleton.com/garden-history" %} &nbsp;This buys us a couple of things: first, it's not only possible but encouraged to post and develop in-progress pieces. For someone like me -- who has eight open projects at any given moment and bounces between them on a whim -- that means it's easy to share all of them in a structured way without the pressure of completing them beforehand. Second, you get to see all your notes and polished pieces in one place, which helps you notice patterns and generate even more ideas. Instagram, Medium, and Twitter are great for specific types of content, but you're forced to scatter your ideas across platforms. Digital gardens are more representative of your corpus and who *you* are. 
 
