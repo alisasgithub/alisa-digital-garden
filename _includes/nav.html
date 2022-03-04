@@ -16,3 +16,10 @@
         </ul>
     </span>
 </div>
+
+{% if page.category == 'wiki' or page.category == 'post' %}
+<ul class="breadcrumb sans">
+    <li><a class="internal-link sans" href="#">Roots</a></li>
+    <li>{{ page.title }}</li>
+</ul>
+{% endif %}
