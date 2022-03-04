@@ -57,6 +57,7 @@ $box-shadow: 0 12px 12px rgba(105, 33, 69, 0.05), 0 4px 6px rgba(105, 33, 69, 0.
 .sans {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   letter-spacing: .03em;
+  font-weight: 100;
 }
 
 .grow {
@@ -76,9 +77,10 @@ body {
   padding-right: 0;
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   counter-reset: sidenote-counter;
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
 
   @media (min-width: 820px) {
-    font-size: 1.2rem;
     width: 60%;
     max-width: 1100px;
   }
@@ -145,6 +147,7 @@ time {
   display: block;
   color: $color-subtext;
   margin: 0.5em 0 1em;
+  font-size: 1rem;
 }
 
 img {
@@ -192,12 +195,15 @@ h6 {
   font-weight: 400;
 }
 
+h1 {
+  font-size: 2.4rem;
+}
+
 p,
 dl,
 ol,
 ul {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
 
 p {
@@ -673,93 +679,6 @@ code {
   background-color: rgba($color-dirt, 0.1);
 }
 
-// Grid with notecards
-.notecards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
-
-  .card {
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    padding: 1rem;
-    transition: all .2s ease-in-out; 
-    box-shadow: 0 4px 6px rgba(105, 33, 69, 0.05);
-
-    &:hover {
-      transform: scale(1.05); 
-      box-shadow: $box-shadow;
-    }
-
-    h3 {
-      font-size: 1.4rem;
-      line-height: 1.4;
-      margin: 0.5em 0;
-      font-style: normal;
-    }
-
-    time {
-      font-size: 1rem;
-      line-height: 0;
-      padding-bottom: 0.5rem;
-    }
-  }
-
-  .card-img {
-      transition: all .2s ease-in-out; 
-      margin: 2em 0;
-  
-      &:hover {
-        opacity: 0.8; 
-      }
-  
-      div {
-        font-size: 1.2rem;
-        line-height: 1.4;
-        margin: 0.4em;
-        font-style: normal;
-      }
-  
-      img {
-        height: 480px;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 2px;
-      }
-  
-      // For all images on cards that need adjusting
-      #ryan-discovery {
-        object-position: 50% 20%;
-      }
-  }
-
-  .card-wiki {
-    color: $color-primary;
-    border: 1px solid $color-primary;
-    border-radius: 4px;
-    transition: all .2s ease-in-out; 
-
-    &:hover {
-      transform: scale(1.02);
-    }
-
-    div {
-      margin: 1rem;
-    }
-  }
-
-  & > a {
-    border: none;
-    background-color: transparent;
-      &:hover {
-        background-color: transparent;
-      }
-  }
-}
-
-
-
-
 // Sidenote overrides
 .sidenote,
 .marginnote {
@@ -827,10 +746,6 @@ content > p, div.epigraph {
   @media screen and (max-width: 760px) {
     max-width: 100%;
   }
-}
-
-.sans {
-  font-weight: 100;
 }
 
 .numeral {
