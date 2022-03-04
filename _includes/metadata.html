@@ -1,15 +1,14 @@
 <div class="metadata">
-    {% include growth-stage.html growth=page.growth %}
-    <span class="tag sans">{{ page.tag.first }}</span>
     <h1>{{ page.title }}</h1> 
-    <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
-        {% if include.layoutType == 'note' %}
-        Created {{ page.date | date: "%B %-d, %Y" }} | Updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
-        {% else if include.layoutType == 'photoessay' %}
-        {{ page.date | date: "%B %-d, %Y" }}
-        {% endif %}
-    </time>
-    {% if page.plant-link %}
-        {{ page.plant-link }}
-    {% endif %}
+    <div>
+        {% include growth-stage.html growth=page.growth %}
+        <span class="tag sans">{{ page.tag.first }}</span>
+        <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+            {% if include.layoutType == 'note' %}
+            Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }}. Created {{ page.date | date: "%-m/%-d/%y" }}
+            {% else if include.layoutType == 'photoessay' %}
+            {{ page.date | date: "%b %-d %y" }}
+            {% endif %}
+        </time>
+    </div>
 </div>

@@ -132,13 +132,13 @@ body {
   }
 }
 
-#notes-entry-container {
-  margin-top: 4rem;
-}
-
 .metadata {
   h1 {
     margin-top: 0.5rem;
+  }
+
+  div {
+    margin: 0.2rem;
   }
 }
 
@@ -146,8 +146,9 @@ body {
 time {
   display: block;
   color: $color-subtext;
-  margin: 0.5em 0 1em;
+  margin: 0.5em 0.5em 1em;
   font-size: 1rem;
+  display: inline-block;
 }
 
 img {
@@ -175,11 +176,17 @@ blockquote {
 }
 
 hr {
-  width: 100%;
-  max-width: 829px;
   border: 0;
   border-top: 1px dashed $color-border;
   height: 1px;
+  margin: 2rem 0;
+  max-width: 10%;
+}
+
+// For extra margin at end of content
+content + hr {
+  width: 100%;
+  max-width: 829px;
   margin: 5em 0 0;
 }
 
@@ -197,6 +204,10 @@ h6 {
 
 h1 {
   font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 1.8rem;
 }
 
 p,
@@ -426,19 +437,23 @@ ul {
     padding-left: 0;
     list-style: none;
     color: $color-subtext;
-  }
 
-  /* Display list items side by side */
-  &.breadcrumb li {
-    display: inline;
-    font-size: 1.2rem;
-  }
+    a.internal-link {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    }
 
-  /* Add a slash symbol (/) before/behind each list item */
-  &.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
+    /* Display list items side by side */
+    li {
+      display: inline;
+      font-size: 1.2rem;
+
+      /* Add a slash symbol (/) before/behind each list item */
+      &+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+    }
   }
 }
 
