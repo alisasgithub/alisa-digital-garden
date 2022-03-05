@@ -5,9 +5,9 @@
         <span class="tag sans">{{ page.tag.first }}</span>
         <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
             {% if include.layoutType == 'note' %}
-            Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }}. Created {{ page.date | date: "%-m/%-d/%y" }}
+            Created {{ page.date | date: "%-m/%-d/%y" }} &#8901; Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }}
             {% else if include.layoutType == 'photoessay' %}
-            {{ page.date | date: "%b %-d %y" }}
+            {{ page.date | date: "%B %-d, %Y" }}
             {% endif %}
         </time>
     </div>
