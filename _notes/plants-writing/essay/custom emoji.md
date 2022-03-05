@@ -2,9 +2,9 @@
 layout: note
 title: "The unifying power of custom emojis"
 date: 2022-02-26
-tag: [ essay, linguistics, internet culture ]
+tag: [ linguistics, internet culture ]
 growth: growth-1
-category: writing
+category: essay
 ---
 
 - Custom emoji within [[cozy web]] groups like Slack and Discord contribute to a sense of unity and group membership, resulting in tighter bonds between participants

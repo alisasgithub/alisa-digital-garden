@@ -2,9 +2,8 @@
 layout: photoessay
 title: "Ry at Discovery Park"
 date: 2021-01-22
-class: ryan-discovery
-tag: [ photo essay, portrait ]
-category: photography
+tag: [ photoshoot ]
+category: photo
 growth: growth-3
 ---
 

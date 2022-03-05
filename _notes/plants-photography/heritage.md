@@ -2,8 +2,8 @@
 layout: photoessay
 title: "Heritage"
 date: 2020-11-29
-tag: [  ]
-category: photography
+tag: [ personal ]
+category: photo
 growth: growth-2
 ---
 

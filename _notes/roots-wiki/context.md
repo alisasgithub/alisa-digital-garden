@@ -2,9 +2,9 @@
 layout: note
 title: "Context"
 date: 2022-01-06
-tag: [ topic, philosophy ]
+tag: [ philosophy ]
 growth: growth-x
-category: wiki
+category: research notes
 ---
 
 Oxford Dictionary defines context as the following:

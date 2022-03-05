@@ -2,9 +2,9 @@
 layout: note
 title: "Taking photos of pets"
 date: 2021-11-06
-tag: [ behind the scenes ]
+tag: [ photography ]
 growth: growth-x
-category: post
+category: process doc
 ---
 
 I shoot photos for my best friend's cat, [[Bagheera]], a few times a year. She can be a tricky photo subject -- not just because she's a cat, but because her black coat throws a lot of wrenches if I'm not paying active attention to lighting and contrast.

@@ -1,10 +1,16 @@
-{% if include.listCategory == 'wiki' %}
-    {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'title' %}
-{% else %} 
-    {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}
-{% endif %}
-
-
+{% case include.listCategory %}
+    {% when 'research notes' %}
+        {% assign listOfNotes = site.notes | where: "category", "research notes" | sort: "title" %}
+    {% when 'book notes' %}
+        {% assign listOfNotes = site.notes | where: "category", "book notes" | sort: "title" %}
+    {% when 'posts' %}
+        {% assign streamOfConsciousness = site.notes | where: "category", "stream of consciousness" | sort %}
+        {% assign processDoc = site.notes | where: "category", "process doc" | sort %}
+        {% assign groupedPosts = streamOfConsciousness | concat: processDoc %}
+        {% assign listOfNotes = groupedPosts %}
+    {% else %} 
+        {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}
+{% endcase %}
 
 <ul class="list-x list-{{ include.listType }}">
     {% for note in listOfNotes %}
@@ -26,9 +32,14 @@
             {% if include.listType == 'img' %}
                 <span class="color-primary grow arrow">&#8594;</span>
             {% endif %}
-            {% if include.listTag == true %}
+            {% if include.includeCategory == true %}
+                <span class="tag sans">{{ note.category }}</span>
+            {% endif %}
+            {% if include. == true %}
                 {% if note.tag != null %}
-                    <span class="tag sans">{{ note.tags.first }}</span>
+                    {% for tag in note.tag %}
+                        <span class="tag sans">{{ tag }}</span>
+                    {% endfor %}
                 {% endif %}
             {% endif %}
         </li>

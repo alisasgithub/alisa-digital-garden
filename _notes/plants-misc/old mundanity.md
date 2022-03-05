@@ -3,7 +3,7 @@ layout: note
 title: "Old routines"
 date: 2021-09-06
 tag: [ illustration ]
-category: photography
+category: photo
 growth: growth-3
 ---
 

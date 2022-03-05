@@ -2,14 +2,14 @@
 layout: note
 title: "Emoji vibes and why they matter"
 date: 2021-11-06
-tag: [ essay, linguistics, internet culture ]
+tag: [ linguistics, internet culture ]
 growth: growth-3
-category: writing
+category: essay
 ---
 
 <span class="newthought">Lately,</span> I've been ~~bugged by~~ interested in how emojis have different vibes depending on what platform you're on. For example, the joy emoji looks different depending on what app or operating system the viewer is using. If you send a joy emoji on your iPhone but your friend reads it on a PC, you'll see different imagery. I'm talking about this: 
 
-{% include figure.html imgURL="/assets/visuals/emoji-vibes/emoji-by-platform.jpg" imgCaption="ohoho" %}
+{% include figure.html imgURL="/assets/visuals/emojgit i-vibes/emoji-by-platform.jpg" imgCaption="ohoho" %}
 
 The vibes are different from one emoji to another, even though they're supposed to be the "same". Why is it like this, and how does this impact the way we communicate with each other? In this essay, I'll discuss why emoji are inconsistent across platforms, and argue that these differences are disruptive to the communicative ends that emoji serve. (And yeah, I'm writing this like a college essay.)
 

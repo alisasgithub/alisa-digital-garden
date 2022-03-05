@@ -2,9 +2,9 @@
 layout: note
 title: "Because Internet"
 date: 2022-01-06
-tag: [ book notes, internet culture, linguistics ]
+tag: [ internet culture, linguistics ]
 growth: growth-x
-category: wiki
+category: book notes
 ---
 
 This book is alllll about internet linguistics. Internet linguistics are a new branch of linguistics that examines new language patterns that have emerged as a result of the internet. Gretchen McColluch points out that the internet is the first place where casual writing has entered the mainstream -- that is, people on the internet write more than they ever have in any other time in history.

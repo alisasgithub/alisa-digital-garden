@@ -2,9 +2,9 @@
 layout: note
 title: "Post-truth"
 date: 2022-01-11
-tag: [ topic, internet culture, philosophy ]
+tag: [ internet culture, philosophy ]
 growth: growth-x
-category: wiki
+category: research notes
 ---
 
 Post-truth is a concept, or an *anxiety*{% include sidenote.html sidenote="Wikipedia entry on post-truth" sidenoteURL="https://en.wikipedia.org/wiki/Post-truth#Contemporary_evaluation" sidenoteID="wikipedia" %}, where delineations in assertions as *fact* or *not-fact* are blurred. In contexts of politics,  media, and the internet, post-truth is often identified by the use of alternative facts or disinformation. Facebook and Twitter are often seen as instigators in the rise of post-truth rhetoric because of 1) algorithms that result in echo chambers and 2) [[context|removal of context]] to fit the platform's post style.

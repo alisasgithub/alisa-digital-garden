@@ -2,8 +2,8 @@
 layout: photoessay
 title: "Lahaina, HI"
 date: 2020-12-29
-tag: [ photo essay, travel ]
-category: photography
+tag: [ travel ]
+category: photo
 growth: growth-3
 ---
 

@@ -2,9 +2,9 @@
 layout: note
 title: "Internet self-expression: then and now"
 date: 2022-02-20
-tag: [ essay, internet culture, history ]
+tag: [ internet culture, history ]
 growth: growth-2
-category: writing
+category: essay
 ---
 
 ## Outline 

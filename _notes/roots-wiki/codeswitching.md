@@ -2,9 +2,9 @@
 layout: note
 title: "Codeswitching"
 date: 2022-01-06
-tag: [ topic, linguistics, social justice ]
+tag: [ linguistics, social justice ]
 growth: growth-x
-category: wiki
+category: research notes
 ---
 
 The way I type on Teams is different from me texting my sister. Also covered in [[internet linguistics]]. It also impacts the way that I use [[emoji|emojis]] with different people as well. 

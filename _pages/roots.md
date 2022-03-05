@@ -10,12 +10,18 @@ permalink: /roots
 
 ## Posts
 
-{% include list.html listType="simple" listCategory="post" listTag=true %}
+{% include list.html listType="simple" listCategory="posts" includeCategory=true %}
 
-## Notes
+## Book notes
 
 <div id="wiki">
-{% include list.html listType="simple" listCategory="wiki" listTag=true %}
+{% include list.html listType="simple" listCategory="book notes" %}
+</div>
+
+## Research notes
+
+<div id="wiki">
+{% include list.html listType="simple" listCategory="research notes" %}
 </div>
 
 <style>
@@ -24,7 +30,7 @@ permalink: /roots
       -moz-column-count: 3;
       column-count: 3;
     }
-    
+
     @media (max-width: 800px) {
       #wiki ul {
         -moz-column-count:    1;

@@ -2,9 +2,9 @@
 layout: note
 title: "GenZ"
 date: 2022-02-21
-tag: [ topic, internet culture ]
+tag: [ internet culture ]
 growth: growth-x
-category: wiki
+category: research notes
 ---
 
 ## Further reading 

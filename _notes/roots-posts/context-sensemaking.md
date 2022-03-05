@@ -2,9 +2,9 @@
 layout: note
 title: "Context and sensemaking"
 date: 2022-02-23
-tag: [ stream of consciousness ]
+tag: [ context ]
 growth: growth-x
-category: post
+category: stream of consciousness
 ---
 
 Thinking lately about how [[context]] is so intimately central to the way we understand the world around us. Seeing the same information before and after a few key pieces of context is transformative.

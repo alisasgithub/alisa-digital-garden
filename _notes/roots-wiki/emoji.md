@@ -2,9 +2,9 @@
 layout: note
 title: "Emojis"
 date: 2022-01-06
-tag: [ topic, internet culture, linguistics ]
+tag: [ internet culture, linguistics ]
 growth: growth-x
-category: wiki
+category: research notes
 ---
 
 Emoji can be a useful tool to communicate nuance in spaces where body language can't do the communicating. 

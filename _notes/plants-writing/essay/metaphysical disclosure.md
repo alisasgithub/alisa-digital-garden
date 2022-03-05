@@ -2,9 +2,9 @@
 layout: note
 title: "Digital gardens for creative work"
 date: 2022-03-1
-tag: [ essay, digital gardens, internet culture ]
+tag: [ digital gardens, internet culture ]
 growth: growth-2
-category: writing
+category: essay
 ---
 
 ## The problem

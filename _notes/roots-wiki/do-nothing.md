@@ -2,9 +2,9 @@
 layout: note
 title: "How To Do Nothing"
 date: 2022-01-06
-tag: [ book notes, internet culture, linguistics ]
+tag: [ internet culture, linguistics ]
 growth: growth-x
-category: wiki
+category: book notes
 ---
 
 - "I am concerned about the effects of current social media on expression. Including the right to not express oneself and it’s deliberately addicting features" 

@@ -4,9 +4,9 @@ title: "What are digital gardens?"
 id: digital-garden
 permalink: /digital-garden
 date: 2022-01-27
-tag: [ essay, internet culture ]
+tag: [ digital gardens, internet culture ]
 growth: growth-3
-category: writing
+category: essay
 ---
 
 <span class="newthought">Digital gardens</span> are a philosophy of sharing content. It's similar to blogging, but instead of sharing isolated posts each time, you post unfinished ideas that you come back to, build on, connect, and eventually grow into more polished states. It emphasizes *doing* over *getting done*.
@@ -15,7 +15,7 @@ category: writing
 
 ## Always in progress
 
-Because most pages in a digital garden are in a perpetual state of being in progress, they are typically accompanied by a label describing *how* in-progress it is. I use a horticultural system, but with an additional distinction between **Plants** and **Roots** to make it crystal clear what the intention behind the post is.
+Because most pages in a digital garden are in a perpetual state ofg being in progress, they are typically accompanied by a label describing *how* in-progress it is. I use a horticultural system, but with an additional distinction between **Plants** and **Roots** to make it crystal clear what the intention behind the post is.
 
 ### Plants <span class="newthought">aka</span> Active Projects
 
