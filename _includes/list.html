@@ -8,8 +8,10 @@
         {% assign processDoc = site.notes | where: "category", "process doc" | sort %}
         {% assign groupedPosts = streamOfConsciousness | concat: processDoc %}
         {% assign listOfNotes = groupedPosts %}
-    {% else %} 
-        {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}
+    {% when 'essay' %} 
+        {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' | reverse %}
+    {% else %}
+        {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}  
 {% endcase %}
 
 <ul class="list-x list-{{ include.listType }}">

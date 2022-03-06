@@ -11,13 +11,15 @@ category: essay
 
 <span class="newthought">Digital gardens</span> are a philosophy of sharing content. It's similar to blogging, but instead of sharing isolated posts each time, you post unfinished ideas that you come back to, build on, connect, and eventually grow into more polished states. It emphasizes *doing* over *getting done*.
 
-**Imperfection** and **learning in public** are key tenets of the digital garden.{% include sidenote.html sidenote="As defined by Maggie Appleton in her ethos doc." sidenoteID="tenets" sidenoteURL="https://maggieappleton.com/garden-history" %} &nbsp;This buys us a couple of things: first, it's not only possible but encouraged to post and develop in-progress pieces. For someone like me -- who has eight open projects at any given moment and bounces between them on a whim -- that means it's easy to share all of them in a structured way without the pressure of completing them beforehand. Second, you get to see all your notes and polished pieces in one place, which helps you notice patterns and generate even more ideas. Instagram, Medium, and Twitter are great for specific types of content, but you're forced to scatter your ideas across platforms. Digital gardens are more representative of your corpus and who *you* are. 
+**Imperfection** and **learning in public** are key tenets of the digital garden.{% include sidenote.html sidenote="As defined by Maggie Appleton in her ethos doc." sidenoteID="tenets" sidenoteURL="https://maggieappleton.com/garden-history" %} &nbsp;This buys us a couple of things: first, it's not only possible but encouraged to post and develop in-progress pieces. For someone like me -- who has eight open projects at any given moment and bounces between them on a whim -- that means it's easy to share all of them in a structured way without the pressure of completing them beforehand. 
+
+Second, you get to see all your notes and polished pieces in one place, which helps you notice patterns and generate even more ideas. Instagram, Medium, and Twitter are great for specific types of content, but you're forced to scatter your ideas across platforms. Digital gardens are more representative of your corpus and who *you* are. 
 
 ## Always in progress
 
-Because most pages in a digital garden are in a perpetual state ofg being in progress, they are typically accompanied by a label describing *how* in-progress it is. I use a horticultural system, but with an additional distinction between **Plants** and **Roots** to make it crystal clear what the intention behind the post is.
+Because most pages in a digital garden are in a perpetual state of being in progress, they are typically accompanied by a label describing *how* in-progress it is. I use a horticultural system, but with an additional distinction between **Plants** and **Roots** to make it crystal clear what the intention behind the post is.
 
-### Plants <span class="newthought">aka</span> Active Projects
+### Plants <span class="newthought">aka</span> active projects
 
 Plants are the things I place in my garden and grow over time. They are purposeful in that they are growing toward some end state or align with a vision. Plants have the following growth stages: 
 
@@ -27,7 +29,7 @@ Plants are the things I place in my garden and grow over time. They are purposef
     <li><span class="tag tag-gr3 sans no-margin-left"></span> Fairly established. Minor edits might still happen. </li>
 </ul>
 
-### Roots <span class="newthought">aka</span> Ideas & Process
+### Roots <span class="newthought">aka</span> ideas & process
 
 Roots are structures of learning, reflections, and notes. They're more whimsical; a tool for thought. They might inspire a <span class="tag tag-gr1 sans no-margin-left"></span> to be planted one day, but they're otherwise unopinionated.
 

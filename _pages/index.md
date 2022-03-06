@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-# {{ site.title }} is a Digital Garden.
+# {{ site.title }} is a <span class="block">Digital Garden<span>.
 
 ## See [[plants|**Plants**, <span class="newthought">aka</span> Active Projects <span class="color-primary grow">&#8594;</span>]]
 
@@ -20,5 +20,24 @@ Roots contain the messy processes behind my projects, like wiki notes and stream
     max-width: 46em;
   }
 
+  h2:first-of-type {
+    margin-top: 3rem;
+  }
 
+  .page h2 a {
+    transition: color 200ms;
+    border-bottom: none;
+    color: #1a1a1a;
+    background-color: transparent;
+  }
+
+  .page h2 a:hover {
+    border: none;
+    background-color: transparent;
+    color: #E53109 !important;
+  }
+
+  .block {
+    display: inline-block;
+  }
 </style>

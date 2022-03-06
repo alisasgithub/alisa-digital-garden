@@ -40,7 +40,7 @@
 }
 
 $color-primary: #E53109;
-$color-text: hsl(0, 0, 10%);
+$color-text: hsl(0, 0%, 10%);
 $color-subtext: hsl(0, 0%, 36%);
 $color-border: hsl(0, 0%, 64%);
 $color-growth: #4F9130;
@@ -89,31 +89,16 @@ body {
     width: 90%;
   }
 
-  &.page {
-    h2 {
-
-      a {
-        transition: color 200ms;
-        border-bottom: none;
-        color: $color-text;
-        background-color: transparent;
-
-        &:hover {
-          border: none;
-          background-color: transparent;
-          color: $color-primary !important;
-        }
-      }
-    }
-  }
-
   &.photoessay {
     background-color: #FFFFFF;
     
     @media (min-width: 820px) {
-      font-size: 1.2rem;
       width: 80%;
       max-width: 2200px;
+
+      p {
+        font-size: 1.2rem;
+      }
     }
   
     @media only screen and (max-width: 1200px) {
@@ -208,6 +193,7 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
+  margin-top: 2.4rem;
 }
 
 p,
@@ -277,6 +263,10 @@ ul, ol {
 // navigation styles
 nav {
   margin: 2.8rem 0 5rem;
+
+  @media (max-width: 1200px) {
+    margin-bottom: 2rem;
+  }
 }
 
 nav, footer {
