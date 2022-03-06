@@ -129,11 +129,19 @@ body {
 
 
 time {
-  display: block;
+  display: inline-block;
   color: $color-subtext;
   margin: 0.5em 0.5em 1em;
   font-size: 1rem;
-  display: inline-block;
+  
+  span {
+    display: inline-block;
+    margin-right: 0.6em;
+  }
+
+  svg {
+    vertical-align: top;
+  }
 }
 
 img {
@@ -195,6 +203,13 @@ h2 {
   font-size: 1.8rem;
   margin-top: 2.4rem;
 }
+
+h3 {
+  &+p {
+    margin-top: 0.6em;
+  }  
+}
+
 
 p,
 dl,
@@ -931,4 +946,9 @@ span.newthought {
 .no-margin-left
   {
     margin-left: 0;
+  }
+
+  .icon {
+    fill: $color-subtext;
+
   }

@@ -17,7 +17,7 @@ Second, you get to see all your notes and polished pieces in one place, which he
 
 ## Always in progress
 
-Because most pages in a digital garden are in a perpetual state of being in progress, they are typically accompanied by a label describing *how* in-progress it is. I use a horticultural system, but with an additional distinction between **Plants** and **Roots** to make it crystal clear what the intention behind the post is.
+Because most pages in a digital garden are in a perpetual state of being in progress, they are typically accompanied by a label describing *how* in-progress it is. I use a horticultural system, and distinguish between **Plants** and **Roots** to make it crystal clear what the intention behind the post is.
 
 ### Plants <span class="newthought">aka</span> active projects
 
