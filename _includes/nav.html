@@ -17,16 +17,18 @@
     </span>
 </div>
 
-{% if page.category == 'research notes' or page.category == 'stream of consciousness' or page.category == 'book notes' or page.category == 'process doc' %}
-<ul class="breadcrumb sans">
-    <li><a class="internal-link sans" href="#">Roots</a></li>
-    <li>{{ page.category | capitalize }}</li>
-    <li>{{ page.title }}</li>
-</ul>
-{% else %}
-<ul class="breadcrumb sans">
-    <li><a class="internal-link sans" href="#">Plants</a></li>
-    <li>{{ page.category | capitalize }}</li>
-    <li>{{ page.title }}</li>
-</ul>
-{% endif %}
+<!-- {% if page.layout == 'note' %}
+    {% if page.category == 'research notes' or page.category == 'stream of consciousness' or page.category == 'book notes' or page.category == 'process doc' %}
+    <ul class="breadcrumb sans">
+        <li><a class="internal-link sans" href="#">Roots</a></li>
+        <li>{{ page.category | capitalize }}</li>
+        <li>{{ page.title }}</li>
+    </ul>
+    {% else %}
+    <ul class="breadcrumb sans">
+        <li><a class="internal-link sans" href="#">Plants</a></li>
+        <li>{{ page.category | capitalize }}</li>
+        <li>{{ page.title }}</li>
+    </ul>
+    {% endif %}
+{% endif %} -->

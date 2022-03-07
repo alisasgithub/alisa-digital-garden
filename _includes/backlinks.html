@@ -3,16 +3,16 @@
         <h3 class="newthought">Connected plant matter</h3>
         <div>
             {% for backlink in page.backlinks %}
-            <div class="backlink-box">
-                <h4 class="backlink-title">
-                    <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
+            <a class="internal-link list-link" href="{{ site.baseurl }}{{ note.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
+                <div class="list-item">
+                    <h4 class="backlink-title">
                         {{ backlink.title }}
-                    </a>
-                </h4>
-                {% include growth-stage.html growth=backlink.growth %}
-                {% if backlink.tag != null %}<span class="tag sans">{{ backlink.tags.first }}</span>{% endif %}
-            <p style="font-size: 1em">{{ backlink.excerpt | strip_html | truncatewords: 40 }}</p>
-            </div>
+                    </h4>
+                    {% include growth-stage.html growth=backlink.growth %}
+                    <span class="tag sans">{{ backlink.category }}</span>
+                    <p style="font-size: 1em">{{ backlink.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 25 }}</p>
+                </div>
+            </a>
             {% endfor %}
         </div>
     </div>

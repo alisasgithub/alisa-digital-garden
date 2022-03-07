@@ -8,7 +8,7 @@ permalink: /roots
 
 ## Posts
 
-{% include list.html listType="simple" listCategory="posts" includeCategory=true %}
+{% include list.html listType="posts" listCategory="posts" includeCategory=true %}
 
 ## Book notes
 

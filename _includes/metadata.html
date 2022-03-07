@@ -6,7 +6,6 @@
             <span class="tag sans">{{ tag }}</span>
         {% endfor %}
         <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
-            <!-- Created {{ page.date | date: "%-m/%-d/%y" }} &#8901; Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }} -->
             <span><span class="iconify" data-icon="cil:clock" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Created {{ page.date | date: "%-m/%-d/%y" }} </span>
             <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }}</span>
         </time>

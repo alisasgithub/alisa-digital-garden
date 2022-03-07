@@ -125,13 +125,15 @@ body {
   div {
     margin: 0.2rem;
   }
+
+  margin-bottom: 2.4rem;
 }
 
 
 time {
   display: inline-block;
   color: $color-subtext;
-  margin: 0.5em 0.5em 1em;
+  margin: 0.5em 0.5em 0;
   font-size: 1rem;
   
   span {
@@ -535,7 +537,6 @@ ul {
     li {
       padding: 0;
       transition: all .2s ease-in-out; 
-      // margin: 2em 0;
   
       &:hover {
         transform: scale(1.05);
@@ -586,13 +587,14 @@ ul {
   }
 }
 
-#backlinks {
-margin: 3em 0;
+#backlinks, 
+.list-preview {
 max-width: 75%;
+margin-bottom: 3.4rem;
 
-@media (max-width: 760px) {
-  max-width: 100%;
-}
+  @media (max-width: 760px) {
+    max-width: 100%;
+  }
 
   h3 {
     font-size: 1.4rem;
@@ -618,19 +620,43 @@ max-width: 75%;
     }
   }
 
-  .backlink-box {
-    border-left: 3px solid $color-primary;
-    padding: 0.5rem 1.5rem 0;
-    margin-bottom: 1em;
+  time {
+    float: right;
   }
 
   p {
     margin: 1rem 0 0;
+    line-height: 1.4;
+    float: clear;
   }
 
   a {
     border: none;
+
+    &.list-link {
+      background-color: transparent;
+      padding: 0;
+      display: block;
+    }
   }
+
+  .list-item {
+    background-color: #FFFFFF;
+    border-radius: $border-radius;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: all .2s ease-in-out; 
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: $box-shadow;
+      opacity: 0.95;
+    }
+  }
+}
+
+#backlinks {
+  margin: 3em 0;
 }
 
 code {
