@@ -55,6 +55,9 @@
             {% if include.includeCategory == true %}
                 <span class="tag sans">{{ note.category }}</span>
             {% endif %}
+            {% if include.listTag == true %}
+                <span class="tag sans">{{ note.tag.first }}</span>
+            {% endif %}
             {% if include. == true %}
                 {% if note.tag != null %}
                     {% for tag in note.tag %}

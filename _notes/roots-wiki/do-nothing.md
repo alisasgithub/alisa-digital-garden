@@ -2,7 +2,7 @@
 layout: note
 title: "How To Do Nothing"
 date: 2022-01-06
-tag: [ internet culture, linguistics ]
+tag: [ social media, internet culture ]
 growth: growth-x
 category: book notes
 ---

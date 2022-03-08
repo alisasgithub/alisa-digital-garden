@@ -12,7 +12,7 @@ permalink: /roots
 
 ## Book notes
 
-{% include list.html listType="simple" listCategory="book notes" %}
+{% include list.html listType="simple" listTag=true listCategory="book notes" %}
 
 ## Research notes
 
