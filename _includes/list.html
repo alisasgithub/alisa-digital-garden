@@ -29,6 +29,7 @@
                 <p style="font-size: 1em">{{ note.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 25 }}</p>
             </div>
         </a>
+        <hr class="list-break">
     {% endfor %}
 </div>
 {% else if %}

@@ -109,6 +109,10 @@ body {
       width: 75%; // keeps nav, header, footer, at the same spot as on other pages
       margin-left: auto;
       margin-right: auto;
+
+      @media (max-width: 760px) {
+        width: 96%;
+      }
     }
   }
 
@@ -641,22 +645,33 @@ margin-bottom: 3.4rem;
   }
 
   .list-item {
-    background-color: #FFFFFF;
-    border-radius: $border-radius;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     margin: 1rem 0;
     transition: all .2s ease-in-out; 
 
     &:hover {
       transform: scale(1.05);
-      box-shadow: $box-shadow;
-      opacity: 0.95;
+    }
+  }
+
+  hr {
+    max-width: 100%;
+    margin: 0;
+
+    &:last-child {
+      display: none;
     }
   }
 }
 
 #backlinks {
   margin: 3em 0;
+
+  a {
+    .list-item {
+      border-bottom: none;
+    }
+  }
 }
 
 code {
