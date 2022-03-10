@@ -5,7 +5,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- <link rel="stylesheet" href="tufte-css/tufte.css"/> -->
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,7 +13,7 @@
 
   <meta property="og:site_name" content="{{ site.title }}">
 
-  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
   <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
@@ -21,7 +21,7 @@
   {% if page.excerpt %}
   <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"/>
   {% else %}
-  <meta property="og:description" content="{{ site.title | strip_html | strip_newlines | truncate: 160 }}"/>
+  <meta property="og:description" content="alisa.wtf is a collection of living documents -- a blog, portfolio, and notebook all rolled into one."/>
   {% endif %}
 
   {% if page.title %}
@@ -45,7 +45,7 @@
 
   <title>
     {% if page.id == "home" %}
-      {{ site.title }}
+      alisa's digital garden
     {% else %}
       {{ page.title }} &mdash; {{ site.title }}
     {% endif %}
