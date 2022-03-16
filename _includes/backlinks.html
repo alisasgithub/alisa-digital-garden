@@ -3,7 +3,7 @@
         <h3 class="newthought">Connected plant matter</h3>
         <div>
             {% for backlink in page.backlinks %}
-            <a class="internal-link list-link" href="{{ site.baseurl }}{{ note.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
+            <a class="internal-link list-link" href="{{ site.baseurl }}{{ backlink.url }}">
                 <div class="list-item">
                     <h4 class="backlink-title">
                         {{ backlink.title }}

@@ -501,6 +501,14 @@ ul {
     }
   }
 
+  &.list-simple {
+    @media screen and (max-width: 400px) {
+      li {
+        text-align: center;
+      }
+    }
+  }
+
   // List styles for outline
   &.list-outline { 
     display: grid;
@@ -706,7 +714,6 @@ code {
   color: $color-subtext;
   background-color: rgba($color-subtext, 0.1);
   border-radius: 4px;
-  font-weight: 300;
   font-size: 1rem;
 }
 
