@@ -9,7 +9,7 @@ category: essay
 
 <span class="newthought">Lately,</span> I've been ~~bugged by~~ interested in how emojis have different vibes depending on what platform you're on. For example, the joy emoji looks different depending on what app or operating system the viewer is using. If you send a joy emoji on your iPhone but your friend reads it on a PC, you'll see different imagery. I'm talking about this: 
 
-{% include figure.html imgURL="/assets/visuals/emojgit i-vibes/emoji-by-platform.jpg" imgCaption="ohoho" %}
+{% include figure.html imgURL="/assets/visuals/emoji-vibes/emoji-by-platform.jpg" %}
 
 The vibes are different from one emoji to another, even though they're supposed to be the "same". Why is it like this, and how does this impact the way we communicate with each other? In this essay, I'll discuss why emoji are inconsistent across platforms, and argue that these differences are disruptive to the communicative ends that emoji serve. (And yeah, I'm writing this like a college essay.)
 
@@ -41,9 +41,10 @@ This whole idea of visual distinctions leading to different vibes is widespread.
 
 So far I've laid out how emoji are used, why different emoji styles exist, and that those differences are not just in my head. This is the part where I argue that **the inconsistent system of emojis is disruptive to their use as a linguistic tool.** This is the section I feel least confident about as far as evidence goes, but have the strongest feelings about.
 
-Chances are that the current system of emoji is good enough for what it is. The only real evidence about this system *not* being good enough is my own frustration when I switch platformss. It feels like I'm being forced to codeswitch for no reason other than the fact that a different company owns that particular context. The point is: it introduces friction in building a common language with another person.
+```// This paragraph needs revision``` <br>
+Chances are that the current system -- that emoji differ across devices -- is "good enough", linguistically speaking. I have no real evidence of it being linguistically disruptive, other than my own frustration when I switch platforms. It feels like I'm being forced to codeswitch for no reason other than the fact that a different company owns that particular context. The point is: it introduces friction in building a common language with another person.
 
-For example, take <code>lol</code>. For someone who is Extremely Online, there are a million variations you could deploy, each with subtle differences in what you are communicating depending on where it shows up in your message, what punctuation you use, and who you are sending it to:
+For example, take <code>lol</code>. For someone who is Extremely Online, there are a million variations, each with subtle differences in meaning depending on what punctuation you use, who you are sending it to, and where it shows up in your message:
 
 - lol
 - LOL
