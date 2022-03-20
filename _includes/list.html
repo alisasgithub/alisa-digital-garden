@@ -10,6 +10,8 @@
         {% assign listOfNotes = groupedPosts %}
     {% when 'essay' %} 
         {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' | reverse %}
+    {% when 'photo' %}
+        {% assign listOfNotes = site.notes | where: "category", include.listCategory | reverse %} 
     {% else %}
         {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}  
 {% endcase %}

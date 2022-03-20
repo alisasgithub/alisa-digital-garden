@@ -1,7 +1,9 @@
 <div>
     <span class="footer-links">
         <ul>
-            <li><a class="internal-link" href="#">back to top</a></li>
+            {% unless page.url == "/" %}
+                <li><a class="internal-link" href="#">back to top</a></li>
+            {% endunless %}
             <li><a class="internal-link hover-underline-animation" href="/about">About</a></li>
             <li><a class="internal-link hover-underline-animation" href="/colophon">Meta</a></li>
         </ul>
