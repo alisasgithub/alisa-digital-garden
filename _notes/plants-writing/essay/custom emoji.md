@@ -11,4 +11,5 @@ category: essay
     - Visual consistency across platforms contributes to this
 - Custom emoji as a unique linguistic tool that can only be used within smaller communities
     - Constraints and affordances of custom emoji, compared to normal emoji
+    - Markers of group membership, in-joke understanding
 - If normal emoji are peak hyper-corporatized Web 2.0, custom emoji are peak domestic cozy web
