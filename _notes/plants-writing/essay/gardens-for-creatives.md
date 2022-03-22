@@ -1,17 +1,46 @@
 ---
 layout: note
-title: "Digital gardens for creative work"
+title: "A case for creative gardens"
 date: 2022-03-1
 tag: [ digital gardens, internet culture ]
 growth: growth-2
 category: essay
 ---
 
-<span class="newthought">Back when I was first planning my own digital garden,</span> I noticed that most existing gardens followed a fairly typical pattern: they were focused on analytical ideas and collecting information which, for some, eventually laddered up to an informational blog post. They are traditionally pretty intellectual -- personal Knowledge management systems with a capital K.
+*This article assumes that you are fairly familiar with digital gardens already. <br>If you're new to the topic, try starting with [[digital garden]].*
 
-As I gathered the content I wanted to grow -- which included creative projects -- I quickly found that most digital gardens were not venturing past text-based posts. This made sense given that many gardeners have a separate blog or portfolio where they showcased more creative stuff, but I was drawn to the idea of being able to show the nascent thinking behind *all* my projects, not just my analytical ones. Without any examples to follow, I had to riff a little bit off the original digital garden concept, and this is what worked for me and my process.
+<span class="newthought">Most digital gardens follow</span> a particular structure. They collect information and ideas, usually with some mechanism for drawing connections between them, with the goal being to build out a personal library and generate new ideas over time. Traditionally, they're pretty intellectual -- personal Knowledge management systems with a capital K.
 
-*This article assumes that you are fairly familiar with digital gardens already. If not, you could start with [[digital garden]].*
+Not realizing I could question this structure, I originally  started alisa.wtf with the intention of having two separate areas: an analytical space (<span class="newthought">aka</span> the garden) and a creative space (like a portfolio). As I organized my content, the separation between these two types of content became less and less clear -- I was so drawn to the [ethos of digital gardens](https://maggieappleton.com/garden-history) that I couldn't keep it from spilling into the creative half of my site, and it was quickly growing into a hydra of mixed objectives and disorganization.
+
+I scrapped the arbitrary distinction of analytical vs. creative work and decided to reapproach the entire thing as a garden like my subconscious was coercing me to.
+
+<hr>
+
+```// Most of the stuff below this line is a really rough draft.```
+
+## The anatomy of a garden
+
+Pulled directly from [Maggie Appleton's ethos](https://maggieappleton.com/garden-history), also linked above: 
+
+- Navigate by contextual relationship, not chronology
+- Always "growing, evolving, and changing"
+- Embracing incompleteness and imperfection
+- Unique to you, your interests, and your process
+- Invites all kinds of content and media types
+- Independently owned and run
+
+These all apply really nicely to creative work as well. Maybe I'll draw a table to compare between traditional gardens and creative gardens.
+
+## Gardens for creative work
+
+### Growth stages
+
+### Contextual relationships
+
+## What this means for creativity
+
+```// Everything below this line will be rewritten. Woohoo revising in public!```
 
 ## Opportunity 1: Growing creative projects
 

@@ -8,9 +8,9 @@ permalink: /colophon
 
 ## Technologies
 
-I use [Jekyll](https://jekyllrb.com/) to generate my site and I host it on [GitHub Pages](https://pages.github.com/). Everything is open source -- check it out on [my GitHub](https://github.com/alisasgithub).
+I use [Jekyll](https://jekyllrb.com/) to generate my site and I host it on [GitHub Pages](https://pages.github.com/). Everything is open source -- check it out on [my GitHub](https://github.com/alisasgithub), and feel free to fork it if you want. 
 
-Maxime Vaillancourt VanCourt's [Digital Garden Jekyll template](https://github.com/maximevaillancourt/digital-garden-jekyll-template) gave me a bunch of features like backlinking, link previews, and a wiki map. 
+I originally started with Maxime Vaillancourt's [Digital Garden Jekyll template](https://github.com/maximevaillancourt/digital-garden-jekyll-template), which gave me a bunch of nice features like backlinking, link previews, and a wiki map. 
 
 ## Visual style 
 
@@ -37,6 +37,12 @@ There are two link styles depending on type:
 
 - <a class="internal-link">These kinds of links</a> take you to another page in the garden.
 - <a>These kinds of links</a> take you to a different site altogether.
+
+## Site meta notes
+
+I like to process textually, leave notes for myself, and signpost the shit out of my thinking in a way that's separate from the content itself. I do that through the form of meta notes.
+
+```// This is a meta note.```
 
 ## Inspiration
 

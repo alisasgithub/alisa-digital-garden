@@ -7,6 +7,7 @@ growth: growth-2
 category: essay
 ---
 
+```// need to rewrite intro```<br>
 <span class="newthought">When we show up on the internet,</span> we have some level of expectation that we're going to be able to represent ourselves the way we want. I can usually choose my name, a profile picture, and can self-express however I want.
 
 But like... have y'all noticed that self-expression isn't what it used to be? If we look at the peak self-expression platforms of the mid 2000's compared to now, here's what we see:{% include sidenote.html sidenote="I didn't put any effort into finding these examples. I might come back later and try to be more thoughtful about it." sidenoteID="instagram" %}
@@ -35,6 +36,8 @@ It also resulted in horribly inaccessible and unreadable content. Turns out the 
 <hr>
 
 Aside from removing customizations, Facebook also introduced a new model where social media became more about ongoing activity. Twitter, Instagram, and Snapchat appeared shortly after, each with a similar model where the expression on your profile comes from the collection of content you post over time, rather than the profile itself.
+
+There's also the idea of the [blog breaking the web](https://stackingthebricks.com/how-blogs-broke-the-web/), and how the change towards organizing content by chronology impacted expression for the web too. Need to explore this further.
 
 ```// the rest of this essay is still being worked on. check back later.```
 
