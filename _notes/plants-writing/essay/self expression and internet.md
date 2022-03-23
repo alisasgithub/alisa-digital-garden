@@ -7,7 +7,7 @@ growth: growth-2
 category: essay
 ---
 
-```// need to rewrite intro```<br>
+```// this whole article will probably be re-written soon. it needs a better narrative. ```<br>
 <span class="newthought">When we show up on the internet,</span> we have some level of expectation that we're going to be able to represent ourselves the way we want. I can usually choose my name, a profile picture, and can self-express however I want.
 
 But like... have y'all noticed that self-expression isn't what it used to be? If we look at the peak self-expression platforms of the mid 2000's compared to now, here's what we see:{% include sidenote.html sidenote="I didn't put any effort into finding these examples. I might come back later and try to be more thoughtful about it." sidenoteID="instagram" %}
