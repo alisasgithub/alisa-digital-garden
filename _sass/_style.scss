@@ -85,6 +85,13 @@ body {
     max-width: 1100px;
   }
 
+  @media screen and (max-width: 480px) {
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
   @media only screen and (min-width: 761px) and (max-width: 1200px) {
     width: 90%;
   }
@@ -481,6 +488,10 @@ ul {
     li {
       list-style: none;
       padding: 0.4em 0;
+
+      @media screen and (max-width: 480px) {
+        padding: 0.8em 0;
+      }
     }
 
     a {
@@ -505,6 +516,12 @@ ul {
     @media screen and (max-width: 400px) {
       li {
         text-align: center;
+
+        .tag {
+          display: block;
+          width: fit-content;
+          margin: 0.5em auto 0;
+        }
       }
     }
   }
@@ -840,9 +857,7 @@ label {
 
 @media (max-width: 760px) {
   body {
-      width: 90%;
-      padding-left: 5%;
-      padding-right: 5%;
+      width: 94%;
 
       &.photoessay {
         padding: 0;
