@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meta
-permalink: /colophon
+permalink: /meta
 ---
 
 # Meta <span class="newthought">aka</span> how this site was made
