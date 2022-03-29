@@ -8,7 +8,7 @@ permalink: /plants
 
 ## Writing
 
-{% include list.html listType="simple" listCategory="essay" listGrowth=true %}
+{% include list.html listType="simple" listCategory="essay" listGrowth=true listTime=true %}
 
 ## Photography
 

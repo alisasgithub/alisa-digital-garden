@@ -49,25 +49,25 @@
                 {% endif %}
                 <span>{{ note.title }}</span>
             </a>
-            {% if include.listGrowth == true %}
-                {% include growth-stage.html growth=note.growth %}
-            {% endif %}
-            {% if include.listType == 'img' %}
-                <span class="color-primary grow arrow">&#8594;</span>
-            {% endif %}
-            {% if include.includeCategory == true %}
-                <span class="tag sans">{{ note.category }}</span>
-            {% endif %}
-            {% if include.listTag == true %}
-                <span class="tag sans">{{ note.tag.first }}</span>
-            {% endif %}
-            {% if include. == true %}
-                {% if note.tag != null %}
-                    {% for tag in note.tag %}
-                        <span class="tag sans">{{ tag }}</span>
-                    {% endfor %}
+            <div class="note-metadata">
+                {% if include.listGrowth == true %}
+                    {% include growth-stage.html growth=note.growth %}
                 {% endif %}
-            {% endif %}
+                {% if include.listType == 'img' %}
+                    <span class="color-primary grow arrow">&#8594;</span>
+                {% endif %}
+                {% if include.includeCategory == true %}
+                    <span class="tag sans">{{ note.category }}</span>
+                {% endif %}
+                {% if include.listTag == true %}
+                    <span class="tag sans">{{ note.tag.first }}</span>
+                {% endif %}
+                {% if include.listTime == true %}
+                    <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+                        <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="14"></span> {{ note.last_modified_at | date: "%-m/%-d" }}</span>
+                    </time>
+                {% endif %}
+            </div>
         </li>
     {% endfor %}
 </ul>

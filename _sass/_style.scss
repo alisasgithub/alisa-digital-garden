@@ -492,6 +492,8 @@ ul {
       @media screen and (max-width: 480px) {
         padding: 0.8em 0;
       }
+
+      
     }
 
     a {
@@ -510,6 +512,23 @@ ul {
     &.sans {
       font-size: 1.2rem;
     }
+
+        // groupings of tags
+        .note-metadata {
+          display: inline;
+    
+          @media screen and (max-width: 400px) {
+            display: block;
+            width: fit-content;
+            margin: 0.5em auto 0;
+          }
+
+          time {
+            svg {
+              vertical-align: text-top;
+            }
+          }
+        }
   }
 
   &.list-simple {
@@ -561,6 +580,7 @@ ul {
       }
     }
   }
+
 
   // List styles for img
   &.list-img { 
@@ -1021,3 +1041,4 @@ span.newthought {
     fill: $color-subtext;
 
   }
+
