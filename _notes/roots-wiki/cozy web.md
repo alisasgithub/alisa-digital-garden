@@ -11,3 +11,5 @@ category: research notes
 
 - [Extended Internet Universe](https://studio.ribbonfarm.com/p/the-extended-internet-universe?utm_source=url)
 - [Cozy web](https://maggieappleton.com/cozy-web)
+
+<img src="https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,w_960/v1589323597/maggieappleton.com/notes/cozyweb-tw.png">
