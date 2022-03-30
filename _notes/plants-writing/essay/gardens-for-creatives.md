@@ -27,32 +27,34 @@ Maggie Appleton defines [six patterns](https://maggieappleton.com/garden-history
 
 1. **Always growing** -- bullets become outlines become drafts etc.
 2. **Learning in public** and being okay with imperfection
-3. Organized by ***contextual relationship*** instead of *recently published*
+3. Organized by **contextual relationship** instead of *recently published*
 
 These weren't as easily translateable, and there weren't many examples online -- but what felt like a lack of precedent turned into a pretty fun systems design problem. 
-
-```// Most of the stuff below this line is a really rough draft.```
 
 ## 1. Creative work *does* grow, just not in the same way
 
 This is arguably the most straightforward of the three: just like intellectual ideas develop into essays, inspired ideas can evolve into creative work -- or so I thought. Creative stuff doesn't actually follow a linear progression: it just kinda happens, or it unfolds so organically that it almost feels disruptive to try to capture it. So, maybe some creative ideas aren’t meant to be tended to quite so closely.
 
-To this end, instead of using the growth stages to think about the literal steps of the creative process from conception → completion, I decided to shift my thinking towards how much intention I have left within that project.
+To this end, instead of using the growth stages to think about the literal steps of the creative process from conception → completion, I decided to use growth stages as **a measure of how much energy I intended to invest** in that project moving forward.
 
 ### Growth stages for creative work
 
-<span class="tag tag-gr1 sans no-margin-left"></span> is used for projects where the bulk of intention is yet to come. Maybe it's an early idea, or a rough draft.
+<span class="tag tag-gr1 sans no-margin-left"></span> is used for projects where the bulk of intention is yet to come. Maybe it's a sentence describing an idea, or a photo yet to be edited.
 
-<span class="tag tag-gr2 sans no-margin-left"></span> is used for projects that forsee ongoing intention. This is a good choice for open collections that build over time, like [[Bagheera]], which I add to as I take more photos. If I was working on an illustration, I could upload the sketch or line art until I got around to coloring and shading.
+<span class="tag tag-gr2 sans no-margin-left"></span> is used for projects that forsee ongoing intention over a period of time -- like [[Bagheera|Bagheera's gallery]] where I add more photos as I take them.
 
-<span class="tag tag-gr3 sans no-margin-left"></span> is used for projects that I no longer anticipate putting intention into. Most creative portfolios already show projects in this state, but I like that the metaphor sets a more open-ended and forgiving tone -- a photoshoot could still be re-edited much like an article, inviting changes as my skills and creative eye gets better over time. 
+<span class="tag tag-gr3 sans no-margin-left"></span> is used for projects that I no longer anticipate putting intention into, other than minor edits. This could obviously change at any time.
+
+Most creative portfolios already show projects in the <span class="tag tag-gr3 sans no-margin-left"></span> state, but I like that the horticultural metaphor sets a more open-ended and forgiving tone -- blossoms aren't ever *complete* or *archived*. Similarly, a photoshoot isn't considered *done* in that it could still be re-edited, inviting changes as my skills and creative eye gets better over time. 
+
+```// Most of the stuff below this line is a really rough draft.```
 
 ## 2. Learning happens through *doing* and *reflecting*
 
 - Reflective pieces on creative process (taking pics of pets)
 - Resources I keep coming back to and taking notes in the wiki
 
-### Contextual relationships
+## 3. Contextual relationships means aesthetic *and* authentic 
 
 - Backlinking between learning in public pieces
 - Plant/Root distinction over analytical/creative. Purposefulness 
