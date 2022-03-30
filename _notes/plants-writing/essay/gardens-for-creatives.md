@@ -33,7 +33,7 @@ These weren't as easily translateable, and there weren't many examples online --
 
 ## 1. Creative work *does* grow, just not in the same way
 
-This is arguably the most straightforward of the three: just like intellectual ideas develop into essays, inspired ideas can evolve into creative work -- or so I thought. Creative stuff doesn't actually follow a linear progression: it just kinda happens, or it unfolds so organically that it almost feels disruptive to try to capture it. So, maybe some creative ideas aren’t meant to be tended to quite so closely.
+This is arguably the most straightforward of the three: just like intellectual ideas develop into essays, inspired ideas can evolve into creative work -- or so I thought. Creative stuff doesn't actually follow a linear progression: it just kinda happens, or it unfolds so organically that it almost feels disruptive to try to capture it in the same way you capture an idea for an essay thesis. So, maybe some creative ideas aren’t meant to be tended to quite so closely.
 
 To this end, instead of using the growth stages to think about the literal steps of the creative process from conception → completion, I decided to use growth stages as **a measure of how much energy I intended to invest** in that project moving forward.
 
