@@ -51,8 +51,6 @@ Most creative portfolios already show projects in the <span class="tag tag-gr3 s
 
 ## 2. Learning happens through *exploring* and *reflecting*
 
-
-
 - Reflective pieces on creative process (taking pics of pets)
 - Resources I keep coming back to and taking notes in the wiki
 
@@ -62,8 +60,8 @@ In a typical garden, various posts and notes are linked together through associa
 
 There was also a clear metaphysical difference in the project vs. the posts. The latter were almost always supplementary or in support of the project: a means, rather than an ends. Making the distinction was helpful to mediate my own expectations for what a garden *should* be and to satisfy my need for solid IA -- and Plants and Roots were born.
 
-## What this means for creativity
+## What's next
 
-I realize I've defined the system but haven't done a whole lot to stress test it too thoroughly -- I was tempted to start filling out a bunch of content so I *could* test it, but that defeats the point of slow, nurtured growth. To that end, this article is more of a just-installed trellis than a birds eye view of what's happening -- I've defined the structure of support that I expect my projects to thrive on.
+I realize I've defined the system but haven't done a whole lot to stress test it too thoroughly -- I was tempted to start filling out a bunch of content so I *could* test it, but that defeats the point of slow, nurtured growth. To that end, this article is more of a just-installed trellis than a birds eye view of what's happening -- I've defined the structure of support that I expect my projects to thrive on, with an expectation that I might need to revise things as my needs change. 
 
-And now, we'll wait and see how the creative plants grow.
+Now, I'll wait and see how the creative plants grow.
