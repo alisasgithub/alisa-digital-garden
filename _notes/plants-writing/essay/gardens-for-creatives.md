@@ -33,7 +33,7 @@ These weren't as easily translateable, and there weren't many examples online --
 
 ## 1. Creative work *does* grow, just not in the same way
 
-This is arguably the most straightforward of the three: just like intellectual ideas develop into essays, inspired ideas can evolve into creative work -- or so I thought. Creative stuff doesn't actually follow a linear progression: it just kinda happens, or it unfolds so organically that it almost feels disruptive to try to capture it in the same way you capture an idea for an essay thesis. So, maybe some creative ideas aren’t meant to be tended to quite so closely.
+This is arguably the most straightforward of the three: just like intellectual ideas develop into essays, inspired ideas can evolve into creative work -- or so I thought. Creative stuff doesn't actually follow a linear progression: it just kinda happens, or it unfolds so organically that it almost feels disruptive to try to capture it in the same way you capture an idea for an essay thesis. Maybe some creative ideas aren’t meant to be tended to quite so closely.
 
 To this end, instead of using the growth stages to think about the literal steps of the creative process from conception → completion, I decided to use growth stages as **a measure of how much energy I intended to invest** in that project moving forward.
 
@@ -47,18 +47,28 @@ To this end, instead of using the growth stages to think about the literal steps
 
 Most creative portfolios already show projects in the <span class="tag tag-gr3 sans no-margin-left"></span> state, but I like that the horticultural metaphor sets a more open-ended and forgiving tone -- blossoms aren't ever *complete* or *archived*. Similarly, a photoshoot isn't considered *done* in that it could still be re-edited, inviting changes as my skills and creative eye gets better over time. 
 
-```// Most of the stuff below this line is a really rough draft.```
 
 ## 2. Learning happens through *exploring* and *reflecting*
 
-- Reflective pieces on creative process (taking pics of pets)
-- Resources I keep coming back to and taking notes in the wiki
+Many gardens are a public process of the author wrapping their head around complex concepts, drawing connections between them, and maybe even eventually developing a point of view. There's a lot of analysis happening before any synthesis occurs. On the other hand, creative projects for me are mostly just *spontaneous synthesis* -- synthesis of stuff like technical skills (operating a camera, playing an instrument, etc.), some random inspo I saw on Pinterest or YouTube, a vague vision, and combining it in different ways til something sticks. 
+
+Once something *does* stick and I come back to upload my sweet new project, the garden quickly reminds me that it's not about the final product. That implicit philosophy allows for more of a feedback loop to happen between the areas of synthesis: 
+
+- What would be different if my technical skills were better?
+- What specifically is inspiring about a particular piece?
+- What haven't I tried yet in my explorations?
+
+The structure of a garden is already built for a more [metacognitive](https://cft.vanderbilt.edu/guides-sub-pages/metacognition/) approach, which -- if I stuck with it -- should help me level up in my creative process in theory. I can reflect on projects and inspo or collect resources on particular skills. I've already learned something through this: I recently wrote about [[taking photos of pets]] which made me realize that one of my unquestioned, go-to camera settings was objectively not a good choice for that context. It's a small but impactful change in my technique, and I wouldn't have noticed it if I didn't write it out.
 
 ## 3. Contextual relationships means aesthetic *and* authentic 
 
 In a typical garden, various posts and notes are linked together through associations with each other. For me, creative projects don't typically associate with each other, but having the reflections and resources I describe above are perfect to link to. From an information architecture standpoint, I have these clusters of pages that all interconnected and usually centrally linked by the creative project itself.
 
-There was also a clear metaphysical difference in the project vs. the posts. The latter were almost always supplementary or in support of the project: a means, rather than an ends. Making the distinction was helpful to mediate my own expectations for what a garden *should* be and to satisfy my need for solid IA -- and Plants and Roots were born.
+There was also a clear metaphysical difference that emerged in the project vs. the reflects and resources that support it. The latter were almost always supplementary or in support of the project: a means, rather than an ends. Making this distinction was also helpful in relieving the pressure of what should happen to growth stages for reflective posts, which seemed like they'd stay as sprouts forever by definition.
+
+This is how the Plants and Roots categories were born. Roots provide a way for posts to exist simply as context -- they're the ideas that *inform* creative projects, as tools for processing and reflecting, but don't always *grow into* the project itself. 
+
+This distinction is a natural way to organize content, meaning that all my Plants can be grouped together in their aesthetic forms. Projects like these usually sit aesthetically in the vacuum of a well-designed site with no other info, but the role of the Roots is to hammer those projects with so much context that they're no longer pretty. And in the world of Web 2.0 and premium mediocre, that's kinda nice.
 
 ## What's next
 

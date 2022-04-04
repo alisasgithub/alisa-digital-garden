@@ -4,7 +4,6 @@ title: To do
 permalink: /to-do
 ---
 
-- [ ] iPad photos (Lahaina and PNW) need to be moved to Lightroom CC for optimization (?)
 - [ ] Figure out backlink bug with self-referential backlinks
     - [x] ~~All backlinks point to the current page now~~
 - [ ] Figure out how to order by recently created
