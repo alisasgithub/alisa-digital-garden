@@ -7,7 +7,7 @@ growth: growth-x
 category: book notes
 ---
 
-Rollo May describes a true creative act as an intense *encounter*. An encounter is an absorption into some end, whether that's in the landscape you're photographing, or into an idea behind an abstract painting. The materials or media that are used in this process are a language for communicating this encounter to the wider world.
+Rollo May describes a true creative act as an intense *encounter* between a self and the . An encounter is an absorption into some end, whether that's in the landscape you're photographing, or into an idea behind an abstract painting. The materials or media that are used in this process are a language for communicating this encounter to the wider world.
 
 His use of the word *absorption* remind me of what we call *flow state* nowadays. Intense concentration, not noticing time slipping by, easily skipping meals. They're the same picture.
 
