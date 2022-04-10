@@ -11,6 +11,7 @@ permalink: /to-do
 - [ ] Add Simple Grid, put essay notes into grid
 - [ ] Split out lists?
 - [ ] See if there’s a way to hide chucnks of text at the beginning on link preview
+- [ ] Make new book list
 
 <style>
     li {
