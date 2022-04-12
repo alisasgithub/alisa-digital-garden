@@ -1,10 +1,24 @@
 - title: Because Internet
   author: Gretchen McCulloch
-  img: assets/book-covers/because-internet.png
+  img: assets/book-covers/because-internet.jpg
+  deeplink: /because-internet
   url: https://gretchenmcculloch.com/book/
 
 - title: Braiding Sweetgrass
   author: Robin Wall Kimmerer
-  img: assets/book-covers/because-internet.png
+  img: assets/book-covers/braiding-sweetgrass.jpg
+  deeplink: /braiding-sweetgrass
   url: https://milkweed.org/book/braiding-sweetgrass
+
+- title: Courage to Create
+  author: Rollo May
+  img: assets/book-covers/courage-to-create.jpg
+  deeplink: /courage-to-create
+  url: https://www.goodreads.com/book/show/646141.The_Courage_to_Create
+
+- title: How to do Nothing
+  author: Jenny Odell
+  img: assets/book-covers/how-to-do-nothing.jpg
+  deeplink: /do-nothing
+  url: https://www.penguinrandomhouse.com/books/600671/how-to-do-nothing-by-jenny-odell/
 

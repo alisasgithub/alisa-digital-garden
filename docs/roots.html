@@ -203,6 +203,40 @@
     
 </ul>
 
+<div id="books">
+  <ul>
+  
+    <li>
+      <a class="internal-link" href="/because-internet">
+        <img class="book-img" src="assets/book-covers/because-internet.jpg">
+        <div class="sans">Because Internet</div>
+      </a>
+    </li>
+  
+    <li>
+      <a class="internal-link" href="/braiding-sweetgrass">
+        <img class="book-img" src="assets/book-covers/braiding-sweetgrass.jpg">
+        <div class="sans">Braiding Sweetgrass</div>
+      </a>
+    </li>
+  
+    <li>
+      <a class="internal-link" href="/courage-to-create">
+        <img class="book-img" src="assets/book-covers/courage-to-create.jpg">
+        <div class="sans">Courage to Create</div>
+      </a>
+    </li>
+  
+    <li>
+      <a class="internal-link" href="/do-nothing">
+        <img class="book-img" src="assets/book-covers/how-to-do-nothing.jpg">
+        <div class="sans">How to do Nothing</div>
+      </a>
+    </li>
+  
+  </ul>
+</div>
+
 <h2 id="research-notes">Research notes</h2>
 
 <div id="wiki">
@@ -344,6 +378,39 @@
 </div>
 
 <style>
+    #books ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding-left: 0;
+      grid-gap: 2rem;
+    }
+
+    @media screen and (max-width: 760px) {
+      #books ul {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    #books li {
+      list-style: none;
+      font-size: 1.2rem;
+      transition: all .2s ease-in-out; 
+    }
+
+    #books li:hover {
+        transform: scale(1.05);
+      }
+
+    #books li a {
+        border-bottom: none;
+        background-color: transparent;
+    }
+
+     #books img {
+      max-width:400px;
+      width: 100%;
+    }
+
     h1 {
       margin-left: -48px;
     }
@@ -390,6 +457,9 @@
         column-count: 2;
         }
     }
+
+
+
 </style>
 
 </body></html>

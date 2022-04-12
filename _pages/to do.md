@@ -12,6 +12,7 @@ permalink: /to-do
 - [ ] Split out lists?
 - [ ] See if there’s a way to hide chucnks of text at the beginning on link preview
 - [ ] Make new book list
+    - [ ] Include a bookshelf even if there's no notes?
 
 <style>
     li {

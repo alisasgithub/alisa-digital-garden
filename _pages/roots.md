@@ -14,6 +14,19 @@ permalink: /roots
 
 {% include list.html listType="simple" listTag=true listCategory="book notes" %}
 
+<div id="books">
+  <ul>
+  {% for book in site.data.books %}
+    <li>
+      <a class="internal-link" href="{{ book.deeplink }}">
+        <img class="book-img" src="{{ book.img }}">
+        <div class="sans">{{ book.title }}</div>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
 ## Research notes
 
 <div id="wiki">
@@ -21,6 +34,39 @@ permalink: /roots
 </div>
 
 <style>
+    #books ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding-left: 0;
+      grid-gap: 2rem;
+    }
+
+    @media screen and (max-width: 760px) {
+      #books ul {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    #books li {
+      list-style: none;
+      font-size: 1.2rem;
+      transition: all .2s ease-in-out; 
+    }
+
+    #books li:hover {
+        transform: scale(1.05);
+      }
+
+    #books li a {
+        border-bottom: none;
+        background-color: transparent;
+    }
+
+     #books img {
+      max-width:400px;
+      width: 100%;
+    }
+
     h1 {
       margin-left: -48px;
     }
@@ -67,4 +113,7 @@ permalink: /roots
         column-count: 2;
         }
     }
+
+
+
 </style>
