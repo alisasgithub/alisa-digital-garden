@@ -12,8 +12,6 @@ permalink: /roots
 
 ## Book notes
 
-{% include list.html listType="simple" listTag=true listCategory="book notes" %}
-
 <div id="books">
   <ul>
   {% for book in site.data.books %}
@@ -27,7 +25,7 @@ permalink: /roots
   </ul>
 </div>
 
-## Research notes
+## Personal wiki notes
 
 <div id="wiki">
 {% include list.html listType="simple" listCategory="research notes" %}
