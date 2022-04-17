@@ -217,6 +217,17 @@ h2 {
   margin-top: 2.4rem;
 }
 
+@media (max-width: 400px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+}
+
 h3 {
   &+p {
     margin-top: 0.6em;

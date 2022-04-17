@@ -1,0 +1,34 @@
+{% for book in site.data.books %}
+    {% if book.title == page.title %}
+        {% capture bookArrayContent %}
+            {{ book.author }}|{{ book.img }}|{{ book.url }}
+        {% endcapture %}
+    {% endif %}
+{% endfor %}
+{% assign bookArray = bookArrayContent | split: '|' %}
+
+<div class="metadata">
+    <div class="flex-container">
+        <img class="book-cover" src="{{ bookArray[1] }}">
+        <div class="book-metadata">
+            <h1>{{ page.title }}</h1> 
+            <div class="sans book-author">{{ bookArray[0] }}</div>
+            <div class="book-link"><a target=_blank href="{{ bookArray[2] }}">About</a></div>
+            <div class="book-tags">
+                {% for tag in page.tag %}
+                    <span class="tag sans">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            <div class="book-time">
+                <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }}</span>
+                </time>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:2rem;">
+        <!-- {% include growth-stage.html growth=page.growth %} -->
+    </div>
+</div>
+
+{{ book.title }}

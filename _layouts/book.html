@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<article>
+  {% include metadata-book.html layoutType="note" %}
+  <div id="notes-entry-container">
+    <h2>Notes and reflections</h2>
+    <content>
+      {{ content }}
+    </content>
+    <hr>
+    <div class="shell">
+      {% include backlinks.html %}
+    </div>
+  </div>
+</article>
+{% include link-previews.html wrapperQuerySelector="content" %}
+
+<style>
+    h1 {
+        font-size: 3.4rem;
+        margin-left: -0.3rem;
+    }
+
+    img.book-cover {
+        max-width: 200px;
+    }
+
+    div.book-link {
+        margin: 0.7rem 0 2.4rem;
+    }
+
+    div.book-author {
+        margin: 0 0 0.5rem;
+        font-size: 1.8rem;
+    }
+
+    div.book-tags {
+        margin-left: 0;
+        margin-right: 0;
+        width: fit-content;
+    }
+
+   .flex-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 2.4rem;
+    }
+
+    time {
+        margin: 0.5em 0 0;
+    }
+
+    @media (max-width: 760px) {
+        .flex-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        
+    }
+
+    @media (max-width: 400px) {
+        h1 {
+            text-align: center;
+            font-size: 2.4rem;
+        }
+
+        div.book-link {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        div.book-author {
+            text-align: center;
+        }
+
+        div.book-tags {
+            margin: 0 auto;
+        }
+
+        div.book-time {
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        time {
+            margin-top: 0.8em;
+        }
+    }
+
+    .metadata {
+        margin-bottom: 3.4rem;
+    }
+</style>

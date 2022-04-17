@@ -3,22 +3,26 @@
   img: assets/book-covers/because-internet.jpg
   deeplink: /because-internet
   url: https://gretchenmcculloch.com/book/
+  date-completed: 2022-01-18
 
 - title: Braiding Sweetgrass
   author: Robin Wall Kimmerer
   img: assets/book-covers/braiding-sweetgrass.jpg
   deeplink: /braiding-sweetgrass
   url: https://milkweed.org/book/braiding-sweetgrass
+  date-completed: 2022-03-18
 
 - title: Courage to Create
   author: Rollo May
   img: assets/book-covers/courage-to-create.jpg
   deeplink: /courage-to-create
   url: https://www.goodreads.com/book/show/646141.The_Courage_to_Create
+  date-completed: 2022-04-18
 
-- title: How to do Nothing
+- title: How to Do Nothing
   author: Jenny Odell
   img: assets/book-covers/how-to-do-nothing.jpg
   deeplink: /do-nothing
   url: https://www.penguinrandomhouse.com/books/600671/how-to-do-nothing-by-jenny-odell/
+  date-completed: 2021-11-18
 

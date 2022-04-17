@@ -65,42 +65,51 @@
     </span>
 </div>
 
-<!-- 
-    
-    <ul class="breadcrumb sans">
-        <li><a class="internal-link sans" href="#">Roots</a></li>
-        <li>Book notes</li>
-        <li>Braiding Sweetgrass</li>
-    </ul>
-    
- -->
+<!--  -->
 </nav>
     <div class="wrapper">
       <main><article>
-  <div class="metadata">
-    <h1>Braiding Sweetgrass</h1> 
-    <div>
-        
+  
+
+
+<div class="metadata">
+    <div class="flex-container">
+        <img class="book-cover" src="assets/book-covers/braiding-sweetgrass.jpg">
+        <div class="book-metadata">
+            <h1>Braiding Sweetgrass</h1> 
+            <div class="sans book-author">
+            Robin Wall Kimmerer</div>
+            <div class="book-link"><a target=_blank href="https://milkweed.org/book/braiding-sweetgrass
+        ">About</a></div>
+            <div class="book-tags">
+                
+                    <span class="tag sans">indigenous studies</span>
+                
+                    <span class="tag sans">anthropology</span>
+                
+                    <span class="tag sans">linguistics</span>
+                
+            </div>
+            <div class="book-time">
+                <time class="sans" datetime="2022-04-16T20:38:10-07:00">
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Last updated 4/16/22</span>
+                </time>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:2rem;">
+        <!-- 
         <span class="tag tag-grx sans"></span>
     
 
 
-
-        
-            <span class="tag sans">indigenous studies</span>
-        
-            <span class="tag sans">anthropology</span>
-        
-            <span class="tag sans">linguistics</span>
-        
-        <time class="sans" datetime="2022-03-07T21:23:30-08:00">
-            <span><span class="iconify" data-icon="cil:clock" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Created 3/6/22 </span>
-            <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Last updated 3/7/22</span>
-        </time>
+ -->
     </div>
 </div>
 
+
   <div id="notes-entry-container">
+    <h2>Notes and reflections</h2>
     <content>
       <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html><body>
@@ -115,42 +124,12 @@
 <p>When discussing Potawatomi, the language spoken by the indigenous people of the same name, Dr. Wall Kimmerer talks of the sheer number of verbs. This is in contrast to English, which is much richer in nouns – a perfect language, she notes, for a people who value material things. In Potawatomi, there isn’t a word for <em>a bay</em> on its own, rather, the word is <em>being a bay</em>.</p>
 
 <p>This reminds me of Alan Watt’s similar observation of English being a noun-based language, which impacts how English speakers think about objects as being permanent. This is contrasted with a language like Japanese, where objects are moreso seen as processes. <em>A fist</em> is a noun in Enligsh, whereas it’s a verb in Japanese. Off the top of my head, Japanese seems much more noun-based than Potawatomi, but given the animism of the shinto religion, I’m curious to uncover more ways where Japanese is more process-oriented.</p>
-
-<p><a href="https://milkweed.org/book/braiding-sweetgrass" target="blank">Braiding Sweetgrass by Robin Wall Kimmerer</a></p>
 </body></html>
 
     </content>
     <hr>
     <div class="shell">
       
-    <div id="backlinks" style="font-size: 0.9em">
-        <div>
-            <code>// Backlinks are a little broken right now -- will get to a fix eventually.
-                <br>// Sorry if some of the links don't make sense.</code>
-        </div>
-        <h3 class="newthought">Connected plant matter</h3>
-        <div>
-            
-            <a class="internal-link list-link" href="/braiding-sweetgrass">
-                <div class="list-item">
-                    <h4 class="backlink-title">
-                        Braiding Sweetgrass
-                    </h4>
-                    
-        <span class="tag tag-grx sans"></span>
-    
-
-
-
-                    <span class="tag sans">book notes</span>
-                    <p style="font-size: 1em">Marrying rituals with the mundane
-</p>
-                </div>
-            </a>
-            
-        </div>
-    </div>
-
     </div>
   </div>
 </article>
@@ -280,11 +259,84 @@
 
 
 <style>
-  ul {
-    max-width: 75%;
-  }
-</style>
+    h1 {
+        font-size: 3.4rem;
+        margin-left: -0.3rem;
+    }
 
+    img.book-cover {
+        max-width: 200px;
+    }
+
+    div.book-link {
+        margin: 0.7rem 0 2.4rem;
+    }
+
+    div.book-author {
+        margin: 0 0 0.5rem;
+        font-size: 1.8rem;
+    }
+
+    div.book-tags {
+        margin-left: 0;
+        margin-right: 0;
+        width: fit-content;
+    }
+
+   .flex-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 2.4rem;
+    }
+
+    time {
+        margin: 0.5em 0 0;
+    }
+
+    @media (max-width: 760px) {
+        .flex-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        
+    }
+
+    @media (max-width: 400px) {
+        h1 {
+            text-align: center;
+            font-size: 2.4rem;
+        }
+
+        div.book-link {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        div.book-author {
+            text-align: center;
+        }
+
+        div.book-tags {
+            margin: 0 auto;
+        }
+
+        div.book-time {
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        time {
+            margin-top: 0.8em;
+        }
+    }
+
+    .metadata {
+        margin-bottom: 3.4rem;
+    }
+</style>
 </main>
     </div>
     <footer><div>

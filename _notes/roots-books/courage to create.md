@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: book
 title: "Courage to Create"
 date: 2022-04-09
 tag: [ anthropology, creativity ]

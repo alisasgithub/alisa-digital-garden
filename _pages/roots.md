@@ -25,6 +25,8 @@ permalink: /roots
   </ul>
 </div>
 
+{{ site.data.books['Because-Internet'] }}
+
 ## Personal wiki notes
 
 <div id="wiki">
@@ -42,6 +44,7 @@ permalink: /roots
     @media screen and (max-width: 760px) {
       #books ul {
         grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
       }
     }
 
@@ -61,7 +64,7 @@ permalink: /roots
     }
 
      #books img {
-      max-width:400px;
+      max-width: 400px;
       width: 100%;
     }
 

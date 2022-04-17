@@ -1,6 +1,6 @@
 ---
-layout: note
-title: "How To Do Nothing"
+layout: book
+title: "How to Do Nothing"
 date: 2022-01-06
 tag: [ social media, internet culture ]
 growth: growth-x
