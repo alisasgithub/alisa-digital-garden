@@ -24,3 +24,13 @@ Insights complete an incomplete Gestalt.
 He mentions *escapist creativity* as a form of false creativity -- it has grand visions, sometimes all the way down to each detail, but ultimately lacks encounter. You can produce things, but if there was no absorption, it's not really creativity. 
 
 *Talent* is often mentioned when discussing creativity, though the two are separate. Some can have both great talent and creativity (Picasso), some have great talent but less creativity (Scott Fitzgerald), some have immense creativity but not a lot of talent (Thomas Wolfe. Sorry Thomas.)
+
+### Interrelatedness between I and other
+
+In the last few sections, May discusses how humans are naturally drawn to form and how artists use form in creation. He describes how forms teach us the relationship between ourselves and everything around us:
+
+<blockquote>
+    <p>Whenever I walk, my body is interrelated with the world in which and on which I take my steps. This presupposes some harmony between body and world. We know from physics that the earth rises infinitesimally to meet my step, as any two bodies attract each other. The balance essential in walking is one that is not solely in my body; it can be understood only as a relationship of my body to the ground on which it stands and walks. The earth is there to meet each foot as it falls, and the rhythm of my walking depends on my faith that the earth will be there.</p>
+</blockquote>
+
+He also briefly mentions how our passion for form can explain some of the thought process behind neurosis or paranoia. Both of these are a fervent desire to make sense and understand a particular situation, even going so far as to project form in a way that may not make sense. 
