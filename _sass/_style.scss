@@ -546,6 +546,8 @@ ul {
     @media screen and (max-width: 400px) {
       li {
         text-align: center;
+        max-width: 20rem;
+        margin: 0 auto;
 
         .tag {
           display: block;
@@ -562,7 +564,15 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
     @media screen and (max-width: 760px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 400px) {
       grid-template-columns: 1fr;
+
+      .note-metadata {
+        display: none;
+      }
     }
 
     li {
@@ -570,15 +580,18 @@ ul {
       border-radius: 4px;
       transition: all .2s ease-in-out; 
       margin: 0.5rem;
+      padding: 0;
   
       &:hover {
         transform: scale(1.02);
       }
   
       a {
-        margin: 1rem;
         color: $color-primary;
         font-size: 1.2rem;
+        display: block;
+        padding: 0.4rem 0.6rem;
+        margin-right: 0;
 
         &.internal-link { // internal link overrides
           background-color: transparent;
@@ -636,6 +649,12 @@ ul {
         }
       }
     }
+
+    .note-metadata {
+      @media screen and (max-width: 400px) {
+        display: inline;
+      }
+    }
   }
 }
 
@@ -659,6 +678,12 @@ margin-bottom: 3.4rem;
 
   @media (max-width: 760px) {
     max-width: 100%;
+  }
+
+  @media (max-width: 400px) {
+    .tag {
+      margin-top: 0.5em;
+    }
   }
 
   h3 {

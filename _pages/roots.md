@@ -30,7 +30,7 @@ permalink: /roots
 ## Personal wiki notes
 
 <div id="wiki">
-{% include list.html listType="simple" listCategory="research notes" %}
+{% include list.html listType="outline" listCategory="research notes" %}
 </div>
 
 <style>
@@ -66,6 +66,10 @@ permalink: /roots
      #books img {
       max-width: 400px;
       width: 100%;
+    }
+
+    #books div {
+      line-height: 1.2;
     }
 
     h1 {
