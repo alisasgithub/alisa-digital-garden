@@ -69,7 +69,8 @@
   <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html><body>
 <h1 id="roots">
-<span class="plant-emoji">🕸 </span>Roots</h1>
+<span class="plant-emoji-left">🕸 </span>Roots<span class="plant-emoji-right"> 🕸</span>
+</h1>
 
 <h2 id="posts">Posts</h2>
 
@@ -352,9 +353,27 @@
       margin-left: -48px;
     }
 
-    .plant-emoji {
-        padding-right: 5px;
-        margin-left: -5px;
+    .plant-emoji-left {
+      padding-right: 5px;
+      margin-left: -5px;
+    }
+
+    .plant-emoji-right {
+      display: none;
+    }
+
+    @media only screen and (min-width: 401px) and (max-width: 1200px) {
+      h1 {
+        margin-left: 0;
+      }
+
+      .plant-emoji-left {
+        display: none;
+      }
+
+      .plant-emoji-right {
+        display: inline;
+      }
     }
 
     @media (max-width: 400px) {

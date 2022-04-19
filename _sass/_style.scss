@@ -96,6 +96,12 @@ body {
     width: 90%;
   }
 
+
+  .plant-emoji {
+      padding-right: 5px;
+      margin-left: -5px;
+  }
+
   &.photoessay {
     background-color: #FFFFFF;
     
@@ -583,7 +589,8 @@ ul {
       padding: 0;
   
       &:hover {
-        transform: scale(1.02);
+        transform: scale(1.05);
+        box-shadow: $box-shadow;
       }
   
       a {
