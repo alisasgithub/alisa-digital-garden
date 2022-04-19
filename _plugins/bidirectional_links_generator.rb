@@ -70,7 +70,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     all_notes.each do |current_note|
       # Nodes: Jekyll
       notes_linking_to_current_note = all_notes.filter do |e|
-        e.content.include?(current_note.url)
+        e.content.include?(current_note.url) && note_id_from_note(current_note) != note_id_from_note(e)
       end
 
       # Nodes: Graph
@@ -85,9 +85,11 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
       # Edges: Graph
       notes_linking_to_current_note.each do |n|
+        source_id = note_id_from_note(n);
+        target_id = note_id_from_note(current_note);
         graph_edges << {
-          source: note_id_from_note(n),
-          target: note_id_from_note(current_note),
+          source: source_id,
+          target: target_id,
         }
       end
     end
