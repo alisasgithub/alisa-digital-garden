@@ -16,6 +16,7 @@
         {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}  
 {% endcase %}
 
+{% unless include.listType == 'simple' %}
 {% if include.listType == 'posts' %}
 <div class="list-preview" style="font-size: 0.9em">
     {% for note in listOfNotes %}
@@ -72,4 +73,29 @@
     {% endfor %}
 </ul>
 {% endif %}
+{% endunless %}
 
+{% if include.listType == 'simple' %}
+<div class="container">
+    {% for note in listOfNotes %}
+        <div class="row">
+            <div class="grid-list-title column">
+                <a class="internal-link" href="{{ note.url }}">
+                    {{ note.title }}
+                </a>
+            </div>
+            <div class="column grid-list-time">
+                <time class="sans" datetime="{{ note.last_modified_at | date_to_xmlschema }}">
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="14"></span> {{ note.last_modified_at | date: "%-m/%-d" }}</span>
+                </time>
+            </div>
+            <div class="column grid-list-growth">
+                {% if include.listGrowth == true %}
+                    {% include growth-stage.html growth=note.growth %}
+                {% endif %}
+            </div>
+            <div class="column blank"></div>
+        </div>
+    {% endfor %}
+  </div>
+{% endif %}
