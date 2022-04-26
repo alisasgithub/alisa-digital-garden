@@ -99,16 +99,15 @@ permalink: /roots
       }
     }
 
-    @media (max-width: 400px) {
+    @media screen and (max-width: 600px) {
+      h1 {
+          margin-left: auto;
+          text-align: center;
+      }
 
-        h1 {
-            margin-left: auto;
-            text-align: center;
-        }
-
-        h2 {
-            text-align: center;
-        }
+      h2 {
+          text-align: center;
+      }
     }
 
     h2:first-of-type {

@@ -1302,7 +1302,7 @@
       }
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 600px) {
 
         h1 {
             margin-left: auto;
@@ -1376,12 +1376,36 @@
   }
 
   @media screen and (max-width: 600px) {
+    .container {
+      width: 76%;
+      margin: 0 auto;
+      gap: 1rem 2rem;
+    }
+
     .row {
-      display: block;
+      justify-content: center;
+    }
+
+    .grid-list-title {
+      text-align: center;
+      line-height: 1.6;
     }
 
     .grid-list-title.column {
-      flex: 10;
+      flex-basis: 100%;
+    }
+
+    .grid-list-time.column {
+      flex: 0 1 auto;
+      padding-right: 0.75rem;
+    }
+
+    .grid-list-growth.column {
+      flex: 0 1 auto;
+    }
+
+    .blank.column {
+      flex: 0;
     }
   }
 
