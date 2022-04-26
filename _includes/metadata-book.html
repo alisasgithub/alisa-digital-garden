@@ -1,5 +1,5 @@
 {% for book in site.data.books %}
-    {% if book.title == page.title %}
+    {% if book.deeplink == page.url %}
         {% capture bookArrayContent %}
             {{ book.author }}|{{ book.img }}|{{ book.url }}
         {% endcapture %}
@@ -30,5 +30,3 @@
         <!-- {% include growth-stage.html growth=page.growth %} -->
     </div>
 </div>
-
-{{ book.title }}

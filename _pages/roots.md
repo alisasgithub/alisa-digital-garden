@@ -12,9 +12,11 @@ permalink: /roots
 
 ## Book notes
 
+{% assign bookList = site.data.books | sort: "date-completed" | reverse %}
+
 <div id="books">
   <ul>
-  {% for book in site.data.books %}
+  {% for book in bookList %}
     <li>
       <a class="internal-link" href="{{ book.deeplink }}">
         <img class="book-img" src="{{ book.img }}">
