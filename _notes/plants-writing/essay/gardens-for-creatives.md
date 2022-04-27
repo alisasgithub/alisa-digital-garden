@@ -3,7 +3,7 @@ layout: note
 title: "A case for creative gardens"
 date: 2022-03-1
 tag: [ digital gardens, internet culture ]
-growth: growth-2
+growth: growth-3
 category: essay
 ---
 
@@ -68,10 +68,10 @@ There was also a clear metaphysical difference that emerged in the project vs. t
 
 This is how the Plants and Roots categories were born. Roots provide a way for posts to exist simply as context -- they're the ideas that *inform* creative projects, as tools for processing and reflecting, but don't always *grow into* the project itself. 
 
-This distinction is a natural way to organize content, meaning that all my Plants can be grouped together in their aesthetic forms. Projects like these usually sit aesthetically in the vacuum of a well-designed site with no other info, but the role of the Roots is to hammer those projects with so much context that they're no longer pretty. And in the world of Web 2.0 and premium mediocre, that's kinda nice.
+This distinction is a natural way to organize content, meaning that all my Plants can be grouped together in their aesthetic forms. Projects like these usually sit aesthetically in the vacuum of a well-designed site with no other info, but the role of the Roots is to hammer those projects with so much context that they're no longer pretty. And in the world of Web 2.0 and [premium mediocre](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/), that's kinda nice.
 
 ## What's next
 
-I realize I've defined the system but haven't done a whole lot to stress test it too thoroughly -- I was tempted to start filling out a bunch of content so I *could* test it, but that defeats the point of slow, nurtured growth. To that end, this article is more of a just-installed trellis than a birds eye view of what's happening -- I've defined the structure of support that I expect my projects to thrive on, with an expectation that I might need to revise things as my needs change. 
+I realize I've defined the system but haven't done a whole lot to stress test it too thoroughly -- I was tempted to start filling out a bunch of content so I *could* test it, but that defeats the point of slow, nurtured growth. To that end, this article is more of a freshly installed trellis than a birds eye view of what's happening -- I've defined the structure of support that I think my projects will thrive on, with an expectation that I might need to revise things as my needs change. 
 
 Now, I'll wait and see how the creative plants grow.

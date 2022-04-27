@@ -7,7 +7,7 @@ growth: growth-x
 category: research notes
 ---
 
-The way I type on Teams is different from me texting my sister. Also covered in [[internet linguistics]]. It also impacts the way that I use [[emoji|emojis]] with different people as well. 
+The way I type on Teams is different from me texting my sister. Also covered in [[Because Internet]]. It also impacts the way that I use [[emoji|emojis]] with different people as well. 
 
 ## Further reading
 
