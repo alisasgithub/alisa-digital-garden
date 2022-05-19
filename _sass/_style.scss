@@ -176,6 +176,11 @@ img {
 
 blockquote {
   font-size: 1.4rem;
+  max-width: 75%;
+  font-style: italic;
+  border-left: $color-primary 2px solid;
+  margin-inline-start: 1rem;
+  padding-left: 1rem;
 
   p {
     margin-right: 40px;

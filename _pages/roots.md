@@ -27,8 +27,6 @@ permalink: /roots
   </ul>
 </div>
 
-{{ site.data.books['Because-Internet'] }}
-
 ## Personal wiki notes
 
 <div id="wiki">
