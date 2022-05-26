@@ -7,7 +7,7 @@ growth: growth-2
 category: essay
 ---
 
-Thesis: cheuginess as a word is special in that it's predicated on a postfashion world. 
+🚧 *v incomplete article, tread with caution!*
 
 Cheugy is the word that fills the descriptive void of not *quite* being on-trend. It might describe something that's on trend on paper, but misses the mark on execution. It's subtle and largely comprised of <span class="newthought">iykyk</span> knowledge, like the difference between a scuffed-up vintage 70's vase compared to one with manufactured distress that's plucked off the shelf at Target. 
 
@@ -33,13 +33,13 @@ We've also seen fashion trends devolving into meaninglessness in the consumer wo
 
 Disregarding the clumsy fall of fashion as an institution, the internet has brought a new context for self-expression through clothing. 
 
-## Cheugy is a farewell
-
-Given all of this, I think the introduction of cheuginess marks the end of an era. The downfall of the trends it represents is not dissimilar to the downfall of department stores and the detached consumerism of fast fashion. As consumers become increasingly interested in sustainable, unique pieces and increadingly frustrated with the damage and greed of corporations, a word like "cheugy" helps shape a mindset that celebrates creativity and responsibility in a timeless way. 
-
 <blockquote>
     Before, we dressed to belong; now, we dress to stand out.
 </blockquote>
+
+## Cheugy is a farewell
+
+Given all of this, I think the introduction of cheuginess marks the end of an era. The downfall of the trends it represents is not dissimilar to the downfall of department stores and the detached consumerism of fast fashion. As consumers become increasingly interested in sustainable, unique pieces and increadingly frustrated with the damage and greed of corporations, a word like "cheugy" helps shape a mindset that celebrates creativity and responsibility in a timeless way. 
 
 Outline
 
