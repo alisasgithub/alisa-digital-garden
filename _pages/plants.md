@@ -6,11 +6,11 @@ permalink: /plants
 
 # <span class="plant-emoji-left">🪴&nbsp;</span>Plants<span class="plant-emoji-right">&nbsp;🪴</span>
 
-## Writing
+## Essays
 
 {% include list.html listType="simple" listCategory="essay" listGrowth=true listTime=true %}
 
-## Photography
+## Visuals
 
 {% include list.html listType="img" listCategory="photo" listGrowth=true %}
 
