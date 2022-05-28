@@ -1159,8 +1159,8 @@ span.newthought {
 }
 
 @media screen and (min-width: 800px) {
-  .changelog-note {
-    width: 75%;
+  .changelog-content {
+    max-width: 75%;
   }
 }
 
