@@ -15,6 +15,7 @@ Plants are personal projects, like writing, photography, and the occasional illu
 
 Roots contain the messy processes behind my projects, like wiki notes and streams of consciousness. They're the underlying ideas that support my garden. They're labelled <span class="tag sans tag-grx"></span> to differentiate from projects. 
 
+
 <style>
   @media (max-width: 400px) {
     h1, h2 {
