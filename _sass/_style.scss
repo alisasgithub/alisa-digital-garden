@@ -1085,9 +1085,114 @@ span.newthought {
     margin-left: 0;
   }
 
-  .icon {
-    fill: $color-subtext;
+.icon {
+  fill: $color-subtext;
 
+}
+
+// Changelog styles
+
+#changelog {
+  margin-top: 2rem;
+}
+
+.changelog-entry {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.changelog-time {
+  min-width: 5.5rem;
+  max-width: 5.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  time {
+    font-size: 1rem;
+    margin: 0;
+    color: #7C7C7C;
+  }
+}
+
+.changelog-time-mobile {
+  display: none;
+}
+
+.changelog-content {
+  border-left: 1px solid rgba(92,92,92,0.2);
+  padding-bottom: 5rem;
+  padding-left: 1.4rem;
+
+  &::before {
+    display: inline-block;
+    content: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="16" height="16" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"%3E%3Cpath fill="%23C9C5C5" d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0s256 114.6 256 256s-114.6 256-256 256zm-24-256c0 8 4 15.5 10.7 19.1l96 64c11 8.2 25.9 5.2 32.4-5.8c8.2-11 5.2-25.9-5.8-33.3L280 243.2V120c0-13.3-10.7-24-24.9-24c-12.4 0-24 10.7-24 24l.9 136z"%2F%3E%3C%2Fsvg%3E');
+    background-color: #FDFAFA;
+    background-size: 1rem 1rem;
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    left: -1.9rem;
+    padding-bottom: 0.75rem;
+  }
+}
+
+.changelog-tags {
+  display: inline-block;
+}
+
+.changelog-post {
+  display: inline;
+}
+
+.changelog-note {
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  line-height: 1.4;
+}
+
+.changelog-end {
+  color: #C9C5C5;
+  font-size: 1rem;
+  position: relative;
+  left: 4.8rem;
+}
+
+@media screen and (min-width: 800px) {
+  .changelog-note {
+    width: 75%;
+  }
+}
+
+// Mobile styles for changelog
+@media screen and (max-width: 800px) {
+  .changelog-time-mobile {
+    display: inline;
   }
 
+  .changelog-time-desktop {
+    display: none;
+  }
 
+  .changelog-content {
+    padding-left: 0;
+
+    &::before {
+      left: -0.5rem;
+    }
+  }
+
+  .changelog-post {
+    display: block;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .changelog-tags {
+    padding-top: 0.5rem;
+  }
+
+  .changelog-end {
+    left: 0;
+  }
+}

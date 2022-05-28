@@ -14,6 +14,43 @@ Plants are personal projects, like writing, photography, and the occasional illu
 ## [[roots|See **Roots**, <span class="newthought">aka</span> <span style="display:inline-block">Ideas & Process <span class="color-primary grow">&#8594;</span></span>]]
 Roots contain the messy processes behind my projects, like wiki notes and streams of consciousness. They're the underlying ideas that support my garden. They're labelled <span class="tag tag-grx sans"></span> to differentiate from projects.
 
+<hr>
+
+## Changelog 🪵
+
+{% assign listOfNotes = site.notes | last_modified_date_sort: false %}
+<div id="changelog">
+  {% for note in listOfNotes limit:5 %}
+    <div class="changelog-entry">
+      <div class="changelog-time-desktop changelog-time sans">
+        <time>
+          {{ note.last_modified_at | date: "%b %-d" }}
+        </time>
+      </div>
+      <div class="changelog-content">
+        <div class="changelog-time-mobile changelog-time sans">
+          <time>
+            {{ note.last_modified_at | date: "%b %-d" }}
+          </time>
+        </div>
+        <div class="changelog-post">
+          <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+          <span class="changelog-tags">
+            {% include growth-stage.html growth=note.growth %}
+            <span class="tag sans">{{ note.category }}</span>
+          </span>
+        </div>
+        {% if note.changelog %}
+        <div class="changelog-note">
+          {{ note.changelog }}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="changelog-end sans">FIN!</div>
+</div>
+
 <style>
   @media (max-width: 400px) {
     h1, h2 {
@@ -27,6 +64,14 @@ Roots contain the messy processes behind my projects, like wiki notes and stream
 
   h2:first-of-type {
     margin-top: 3rem;
+  }
+
+  h2#changelog- {
+    font-size: 1.4rem;
+  }
+
+  hr {
+    margin: 4rem 0;
   }
 
   .page h2 a {

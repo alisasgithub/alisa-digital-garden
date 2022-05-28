@@ -5,13 +5,14 @@ date: 2022-05-18
 tag: [ fashion, internet culture, linguistics ]
 growth: growth-2
 category: essay
+changelog: "Started to revise some wording and and pulled in Mina Le's video. Thinking through the outline structure and wondering if I need to flip some sections around."
 ---
 
 🚧 *v incomplete article, tread with caution!*
 
-Cheugy is the word that fills the descriptive void of not *quite* being on-trend. It might describe something that's on trend on paper, but misses the mark on execution. It's subtle and largely comprised of <span class="newthought">iykyk</span> knowledge, like the difference between a scuffed-up vintage 70's vase compared to one with manufactured distress that's plucked off the shelf at Target. 
+We haven't really had a word before to describe something that's not *quite* on-trend, or is trendy on paper while execution falls short. "Cheugy" fills that descriptive void. It can be loud and in-your-face like Millenial fashion or subtle and largely comprised of <span class="newthought">iykyk</span> knowledge -- kind of like knowing whether a scuffed-up vase is vintage from the 70's or manufactured by Target and picked up from a sale bin. 
 
-As a word, cheugy is simultaneously a perfect descriptor *and* incredibly difficult to articulate. Our need for such a word is perfect evidence that we're knees-deep in a post-fashion & post-trend world. In the past days of delineated, top-down fashion trends, we never needed [14 year olds to make up words](https://www.nytimes.com/2021/04/29/style/cheugy.html) to fill a linguistic void. 
+As a word, the definition of cheugy is simultaneously a perfect descriptor *and* incredibly difficult to articulate. Our need for such a word is perfect evidence that we're knees-deep in a post-fashion & post-trend world. In the past days of delineated, top-down fashion trends, we never needed [14 year olds to make up words](https://www.nytimes.com/2021/04/29/style/cheugy.html) to fill a linguistic void. 
 
 ## Cheugy steps in where trends get blurry
 
@@ -23,7 +24,7 @@ A world with clear trends also defines, by consequence, what is *not* on trend. 
 
 ## Trends are out
 
-Video from Mina Le?
+While trend cycles have typically happened in 20 year increments in the past, the world of social media is compressing that so much that even trends from the 2010's are already making a comeback. Mina Le dives into the [2014 tumblr girl aesthetic](https://youtu.be/gI2UqTFddo8?t=969), saying that "we are bombarded with so many photos of trends at such a concentrated rate, that we get tired of them very easily."
 
 This is fairly consistent across the fashionsphere. Li Edelkoort, a top trend forecaster has an [entire manifesto](https://www.youtube.com/watch?v=LV3djdXfimI) about how Fashion as an institution is dead. She largely blames a combination of the insular nature of high fashion, corporate greed, and problems in fashion education. 
 
@@ -39,7 +40,7 @@ Disregarding the clumsy fall of fashion as an institution, the internet has brou
 
 ## Cheugy is a farewell
 
-Given all of this, I think the introduction of cheuginess marks the end of an era. The downfall of the trends it represents is not dissimilar to the downfall of department stores and the detached consumerism of fast fashion. As consumers become increasingly interested in sustainable, unique pieces and increadingly frustrated with the damage and greed of corporations, a word like "cheugy" helps shape a mindset that celebrates creativity and responsibility in a timeless way. 
+Given all of this, I think the introduction of cheuginess as a descriptor marks the end of an era. The downfall of the trends it represents is not dissimilar to the downfall of department stores and the detached consumerism of fast fashion. As consumers become increasingly interested in sustainable, unique pieces and increadingly frustrated with the damage and greed of corporations, a word like "cheugy" helps shape a mindset that celebrates creativity and responsibility in a timeless way. 
 
 Outline
 
