@@ -5,6 +5,7 @@ date: 2022-03-28
 tag: [ internet culture ]
 growth: growth-x
 category: stream of consciousness
+changelog: "Added a section on identity as a brand. Still thinking through this."
 ---
 
 In the last 6 months, I've stepped away from typical social media sites and turned towards cozy web spaces. The [[cozy web]] is the name for the areas of the internet where you interact with others but are largely safe from uninvited eyes, like ad trackers, trolls, and the general public. It was originally [coined](https://studio.ribbonfarm.com/p/the-extended-internet-universe) by Venkatesh Rao. 
