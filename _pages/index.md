@@ -13,9 +13,6 @@ Plants are personal projects, like writing, photography, and the occasional illu
 
 ## [[roots|See **Roots**, <span class="newthought">aka</span> <span style="display:inline-block">Ideas & Process <span class="color-primary grow">&#8594;</span></span>]]
 
-Roots contain the messy processes behind my projects, like wiki notes and streams of consciousness. They're the underlying ideas that support my garden. They're labelled <span class="tag sans tag-grx"></span> to differentiate from projects. 
-
-
 <style>
   @media (max-width: 400px) {
     h1, h2 {
