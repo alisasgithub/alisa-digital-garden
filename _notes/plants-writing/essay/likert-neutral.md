@@ -1,11 +1,11 @@
 ---
 layout: note
-title: "'Neutral' in surveys is important, but wrong"
+title: "'Neutral' doesn't belong in surveys"
 date: 2022-07-07
 tag: [ user research, design ]
-growth: growth-x
-category: stream of consciousness
-changelog: "I found an exciting new hill to die on while building a survey at work."
+growth: growth-3
+category: essay
+changelog: "Renamed to a more concise title, and moved from a Root to a Plant. It's opinionated enough to be more than a stream of consciousness."
 ---
 
 In the world of human-centered design, we often find ourselves building surveys to learn about how people are using the things we build. Despite not being quite as helpful as interviews, surveys can be helpful in a pinch or on a low budget -- but they need to be crafted with care to avoid bias. 
