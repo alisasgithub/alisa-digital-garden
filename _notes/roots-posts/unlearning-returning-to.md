@@ -2,10 +2,10 @@
 layout: note
 title: "Unlearning and 'returning to'"
 date: 2022-12-06
-tag: [ philosophy ]
+tag: [ reflection ]
 growth: growth-x
 category: stream of consciousness
-changelog: "New written post. It's been a minute."
+changelog: "Updated tag."
 ---
 
 Since having a Big Girl Job with Good Insurance, I've had the luxury of treating myself to a few different therapies: physical therapy for hip pain, talk therapy for existence pain (lol), and voice lessons, which is not categorically therapy per se but whatever, I'm counting it.
