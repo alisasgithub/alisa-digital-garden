@@ -9,47 +9,12 @@ permalink: /
 
 ## [[plants|See **Plants**, <span class="newthought">aka</span> <span style="display:inline-block">Active Projects <span class="color-primary grow">&#8594;</span></span>]]
 
-Plants are personal projects, like writing, photography, and the occasional illustration. They're what make my garden beautiful. Each project has a <span class="tag tag-growth sans">🪴 growth stage</span> that describes how far along it is. 
+Mainly longform writing and photography. Each project has a <span class="tag tag-growth sans">🪴 growth stage</span> that describes how far along it is. 
 
 ## [[roots|See **Roots**, <span class="newthought">aka</span> <span style="display:inline-block">Ideas & Process <span class="color-primary grow">&#8594;</span></span>]]
-Roots contain the messy processes behind my projects, like wiki notes and streams of consciousness. They're the underlying ideas that support my garden. They're labelled <span class="tag tag-grx sans"></span> to differentiate from projects.
+Collections of random thoughts, observations, and piecemeal notes on a bunch of different topics.
 
-<hr>
-
-## Changelog 🪵
-
-{% assign listOfNotes = site.notes | last_modified_date_sort: false %}
-<div id="changelog">
-  {% for note in listOfNotes limit:5 %}
-    <div class="changelog-entry">
-      <div class="changelog-time-desktop changelog-time sans">
-        <time>
-          {{ note.last_modified_at | date: "%b %-d" }}
-        </time>
-      </div>
-      <div class="changelog-content">
-        <div class="changelog-time-mobile changelog-time sans">
-          <time>
-            {{ note.last_modified_at | date: "%b %-d" }}
-          </time>
-        </div>
-        <div class="changelog-post">
-          <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
-          <span class="changelog-tags">
-            {% include growth-stage.html growth=note.growth %}
-            <span class="tag sans">{{ note.category }}</span>
-          </span>
-        </div>
-        {% if note.changelog %}
-        <div class="changelog-note">
-          {{ note.changelog }}
-        </div>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
-  <div class="changelog-end sans">FIN!</div>
-</div>
+## [[digital garden|Wtf is a garden? <span class="color-primary grow">&#8594;</span>]]
 
 <style>
   @media (max-width: 400px) {
