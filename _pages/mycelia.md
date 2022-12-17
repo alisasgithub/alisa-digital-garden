@@ -4,7 +4,7 @@ title: Mycelia
 permalink: /mycelia
 ---
 
-# {{ page.title }}
+# {{ page.title }} 🍄
 
 Mycelia are a network of fungus roots that grow under the ground and are also used by trees to [communicate with each other.](https://www.nationalforests.org/blog/underground-mycorrhizal-network#:~:text=Taken%20together%2C%20myecelium%20composes%20what's,mycelium%20that%20trees%20%E2%80%9Ccommunicate.%E2%80%9D) This is the mycelial network of Wardian gardens, where we share ideas and inspire each other creatively.
 

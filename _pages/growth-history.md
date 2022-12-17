@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Changelog
-permalink: /changelog
+title: Growth history
+permalink: /growth-history
 ---
 
-# Changelog 🪵
+# Growth history 🌿
 
 {% assign listOfNotes = site.notes | last_modified_date_sort: false %}
 <div id="changelog">
