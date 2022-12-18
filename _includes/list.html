@@ -26,8 +26,8 @@
                     {{ note.title }}
                 </h4>
                 <span class="tag sans">{{ note.category }}</span>
-                <time class="sans" datetime="{{ note.last_modified_at | date_to_xmlschema }}">
-                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> {{ note.date | date: "%-m/%-d/%y" }}</span>
+                <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c;" data-width="14"></span> {{ note.date | date: "%-m/%-d/%y" }}</span>
                 </time>
                 <p style="font-size: 1em">{{ note.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 25 }}</p>
             </div>
@@ -64,8 +64,8 @@
                     <span class="tag sans">{{ note.tag.first }}</span>
                 {% endif %}
                 {% if include.listTime == true %}
-                    <time class="sans" datetime="{{ note.last_modified_at | date_to_xmlschema }}">
-                        <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="14"></span> {{ note.last_modified_at | date: "%-m/%-d" }}</span>
+                    <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
+                        <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c;" data-width="14"></span> {{ note.last_modified_at | date: "%-m/%-d" }}</span>
                     </time>
                 {% endif %}
             </div>
@@ -85,7 +85,7 @@
                 </a>
             </div>
             <div class="column grid-list-time">
-                <time class="sans" datetime="{{ note.last_modified_at | date_to_xmlschema }}">
+                <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
                     <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="14"></span> {{ note.last_modified_at | date: "%-m/%-d" }}</span>
                 </time>
             </div>

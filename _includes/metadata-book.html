@@ -20,8 +20,8 @@
                 {% endfor %}
             </div>
             <div class="book-time">
-                <time class="sans" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
-                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> Last updated {{ page.last_modified_at | date: "%-m/%-d/%y" }}</span>
+                <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> <span class="sans">Last updated</span> {{ page.last_modified_at | date: "%-m/%-d/%y" }}</span>
                 </time>
             </div>
         </div>
