@@ -4,7 +4,7 @@ title: "Fighting newness"
 date: 2022-04-25
 tag: [ internet culture ]
 growth: growth-x
-category: stream of consciousness
+category: thought
 ---
 
 I keep looking at my digital garden and seeing all the timestamps that haven't budged since March. I keep being like, "damn, just *make* something already."

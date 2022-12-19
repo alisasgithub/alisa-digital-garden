@@ -39,16 +39,15 @@
 //     font-display: swap;
 // }
 
-$color-primary: #E53109;
-$color-text: hsl(0, 0%, 10%);
-$color-subtext: hsl(0, 0%, 36%);
-$color-border: hsl(0, 0%, 64%);
+$color-primary: #B92727;
+$color-text: #192E05;
+$color-subtext: rgba($color-text, 0.65);
+$color-border: #EFE5C9;
 $color-growth: #4F9130;
 $color-dirt: #ae4c13;
-$color-box-background: rgba($color-primary, 0.02);
+$color-box-background: #FEFCF6;
 $border-radius: 8px;
 $box-shadow: 0 12px 12px rgba(105, 33, 69, 0.05), 0 4px 6px rgba(105, 33, 69, 0.05); // Also defined in link-preview
-// $font-family: 'Merriweather', serif;
 
 .color-primary {
   color: $color-primary;
@@ -69,6 +68,10 @@ $box-shadow: 0 12px 12px rgba(105, 33, 69, 0.05), 0 4px 6px rgba(105, 33, 69, 0.
   }
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   margin: 0 auto;
   color: $color-text;
@@ -83,8 +86,7 @@ body {
   letter-spacing: 0.2px;
 
   @media (min-width: 820px) {
-    width: 60%;
-    max-width: 1100px;
+    max-width: 700px;
   }
 
   @media screen and (max-width: 480px) {
@@ -120,8 +122,23 @@ body {
       width: 96%;
     }
 
-    nav, footer, .metadata, p {
-      width: 75%; // keeps nav, header, footer, at the same spot as on other pages
+    nav, footer, .metadata, p, h1 {
+      max-width: 700px; // keeps nav, header, footer, at the same spot as on other pages
+      margin-left: auto;
+      margin-right: auto;
+
+      @media (max-width: 760px) {
+        width: 96%;
+      }
+    }
+  }
+
+  &.wide {
+    width: 75%;
+    max-width: 2200px;
+
+    nav, footer, .metadata, p, h1 {
+      max-width: 760px; // keeps nav, header, footer, at the same spot as on other pages
       margin-left: auto;
       margin-right: auto;
 
@@ -198,11 +215,10 @@ blockquote {
 }
 
 hr {
-  border: 0;
-  border-top: 1px dashed $color-border;
+  border: 0px;
+  border-top: 1px solid $color-border;
   height: 1px;
   margin: 2rem 0;
-  max-width: 10%;
 }
 
 // For extra margin at end of content
@@ -274,7 +290,6 @@ a {
   transition: color 200ms;
   padding: 0 0.1em;
   text-decoration: none;
-  // border-bottom: 1px solid $color-primary;
   color: darken($color-primary, 15%);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-weight: 100;
@@ -309,6 +324,15 @@ a {
       background-color: rgba($color-primary, 0.2);
     }
   }
+
+  &.internal-link-unstyled {
+      background-color: transparent;
+      border-bottom: none;
+
+      &:hover {
+        background-color: transparent;
+      }
+  }
 }
 
 ul, ol {
@@ -316,6 +340,22 @@ ul, ol {
     color: rgba($color-text, 0.5);
     font-weight: bold;
     list-style-type: circle;
+  }
+}
+
+button {
+  transition: background-color 200ms;
+  border: 1px solid $color-primary;
+  border-radius: 100px;
+  color: $color-primary;
+  background-color: transparent;
+  padding: 0.25rem 0.5rem;
+  font-size:0.8rem;
+  font-family: freight-sans-pro;
+
+  &:hover {
+    background-color: rgba($color-primary, 0.2);
+    cursor: pointer;
   }
 }
 
@@ -695,8 +735,7 @@ ul {
 
 #backlinks, 
 .list-preview {
-max-width: 75%;
-margin-bottom: 3.4rem;
+  margin-bottom: 3.4rem;
 
   @media (max-width: 760px) {
     max-width: 100%;
@@ -718,13 +757,11 @@ margin-bottom: 3.4rem;
     width: fit-content; // exclusive from internal-link
     margin: 0; // exclusive from internal-link
     display: inline-block; // exclusive from internal-link
-    font-weight: 300; // exclusive from internal-link
+    font-weight: 600; // exclusive from internal-link
     margin-right: 0.5em; // exclusive from internal-link
-    font-size: 1.3rem; // exclusive from internal-link
+    font-size: 1.1rem; // exclusive from internal-link
     transition: background 300ms;
     color: $color-text;
-    border-bottom: 1px solid $color-primary;
-    background-color: rgba($color-primary, 0.05);
 
     &:hover {
       color: $color-text !important;
@@ -1079,6 +1116,27 @@ span.newthought {
      img {
        margin-bottom: 0;
      }
+  }
+}
+
+// Journal CSS
+#journal {
+  .photo-preview {
+    height: 10rem;
+    overflow: hidden;
+    display: inline-flex;
+    border-radius: 6px;
+    
+    img {
+      height: inherit;
+      margin-left: 1.5px;
+      height: inherit;
+      opacity: 95%;
+
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
   }
 }
 

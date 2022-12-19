@@ -3,21 +3,23 @@
         {% assign listOfNotes = site.notes | where: "category", "research notes" | sort: "title" %}
     {% when 'book notes' %}
         {% assign listOfNotes = site.notes | where: "category", "book notes" | sort: "title" %}
-    {% when 'posts' %}
-        {% assign streamOfConsciousness = site.notes | where: "category", "stream of consciousness" | sort: 'date' | reverse %}
-        {% assign processDoc = site.notes | where: "category", "process doc" | sort %}
-        {% assign groupedPosts = streamOfConsciousness | concat: processDoc %}
-        {% assign listOfNotes = groupedPosts %}
+    {% when 'journal' %}
+        {% assign photographyPosts = site.notes | where: "category", "photo" %}
+        {% assign thoughtPosts = site.notes | where: "category", "thought" %}
+        {% assign groupedPosts = photographyPosts | concat: thoughtPosts %}
+        {% assign listOfNotes = groupedPosts | sort: 'date' | reverse %}
     {% when 'essay' %} 
-        {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' | reverse %}
+        {% assign listOfNotes = site.notes | where: "category", include.listCategory | last_modified_date_sort: false %}
     {% when 'photo' %}
         {% assign listOfNotes = site.notes | where: "category", include.listCategory | reverse %} 
+    {% when 'thoughts' %}
+        {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'date' | reverse %}
     {% else %}
         {% assign listOfNotes = site.notes | where: "category", include.listCategory | sort: 'growth' %}  
 {% endcase %}
 
 {% unless include.listType == 'simple' %}
-{% if include.listType == 'posts' %}
+{% if include.listType == 'journal' %}
 <div class="list-preview" style="font-size: 0.9em">
     {% for note in listOfNotes %}
         <a class="internal-link list-link" href="{{ site.baseurl }}{{ note.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
@@ -25,14 +27,25 @@
                 <h4>
                     {{ note.title }}
                 </h4>
-                <span class="tag sans">{{ note.category }}</span>
                 <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
-                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c;" data-width="14"></span> {{ note.date | date: "%-m/%-d/%y" }}</span>
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c;" data-width="14"></span> {{ note.date | date: "%-m-%-d-%y" }}</span>
                 </time>
-                <p style="font-size: 1em">{{ note.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 25 }}</p>
+                <p style="font-size: 1em">{{ note.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 35 }}</p>
+                {% if note.excerpt.size > 1 and note.category == 'photo' %}
+                <br>
+                {% endif %}
+                {% if note.category == 'photo' %}
+                    <div class="photo-preview">
+                        {% for image in site.static_files %}
+                        {% if image.path contains note.url %}
+                            <img class="photoessay" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
             </div>
         </a>
-        <hr class="list-break">
+        <hr>
     {% endfor %}
 </div>
 {% else if %}
@@ -86,7 +99,7 @@
             </div>
             <div class="column grid-list-time">
                 <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
-                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="14"></span> {{ note.last_modified_at | date: "%-m/%-d" }}</span>
+                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="14"></span> {{ note.last_modified_at | date: "%m-%y " }}</span>
                 </time>
             </div>
             <div class="column grid-list-growth">
@@ -94,7 +107,6 @@
                     {% include growth-stage.html growth=note.growth %}
                 {% endif %}
             </div>
-            <div class="column blank"></div>
         </div>
     {% endfor %}
   </div>

@@ -4,7 +4,7 @@ title: "Grateful for"
 date: 2022-12-13
 tag: [ reflection ]
 growth: growth-x
-category: stream of consciousness
+category: thought
 ---
 
 - Having so many Christmas cards to send that it's stressful. I'm lucky to have so many people that I feel compelled to send some love to.

@@ -4,7 +4,7 @@ title: "Unlearning and 'returning to'"
 date: 2022-12-06
 tag: [ reflection ]
 growth: growth-x
-category: stream of consciousness
+category: thought
 changelog: "Updated tag."
 ---
 

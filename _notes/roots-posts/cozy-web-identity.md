@@ -4,7 +4,7 @@ title: "On the cozy web, who are you?"
 date: 2022-03-28
 tag: [ internet culture ]
 growth: growth-x
-category: stream of consciousness
+category: thought
 changelog: "Added a section on identity as a brand. Still thinking through this."
 ---
 

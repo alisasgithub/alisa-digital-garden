@@ -4,7 +4,7 @@ title: "Your @ is a commodity"
 date: 2022-03-7
 tag: [ social media ]
 growth: growth-x
-category: stream of consciousness
+category: thought
 ---
 
 A while ago, I signed up for [Polywork](https://www.polywork.com/), a new-age tech-focused LinkedIn, in their early beta stages. I was one of a first few hundred to get access to the platform, and when they asked me to choose a handle, I took my opportunity: ```@alisa```

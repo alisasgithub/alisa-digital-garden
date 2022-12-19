@@ -4,7 +4,7 @@ title: "Context and sensemaking"
 date: 2022-02-23
 tag: [ context ]
 growth: growth-x
-category: stream of consciousness
+category: thought
 ---
 
 Thinking lately about how [[context]] is so intimately central to the way we understand the world around us. Seeing the same information before and after a few key pieces of context is transformative.
