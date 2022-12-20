@@ -7,7 +7,6 @@ permalink: /
 
 <br>
 <br>
-<br>
 <img src="/assets/visuals/index/flowers.png">
 
 # {{ site.title }} is a <span class="block">digital garden<span>.
