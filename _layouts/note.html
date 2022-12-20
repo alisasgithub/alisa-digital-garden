@@ -10,7 +10,7 @@ layout: default
       {{ content }}
     </content>
     <div class="bottom-nav">
-      {% include button.html buttonLabel=page.category destinationURL=page.category bottomNav=true %}
+      {% include button.html buttonType="backToTop" %}{% include button.html buttonType="seeMoreCategory" bottomNav=true %}
     </div>
     <div class="shell">
       {% include backlinks.html %}

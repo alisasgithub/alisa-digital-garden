@@ -27,7 +27,9 @@ class: photoessay
             {% endfor %}
         </ul>  
     </div>
-
+    <div class="bottom-nav">
+        {% include button.html buttonType="backToTop" %}{% include button.html buttonType="seeMoreCategory" bottomNav=true %}
+    </div>
 </div>
 
 {% include backlinks.html %}
@@ -41,5 +43,10 @@ class: photoessay
       hr {
         border-top: 1px solid #EDECE8;
       }
+
+      .bottom-nav {
+        max-width:760px;
+        margin: 0 auto;
+    }
       
   </style>

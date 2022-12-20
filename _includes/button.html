@@ -1,5 +1,12 @@
-{% if include.backToTop == true %}
-<a href="#" class="internal-link internal-link-unstyled"><button>&#8963; back to top</button></a>
+{% assign buttonType = include.buttonType %}
+
+{% case buttonType %}
+{% when "backToTop" %}
+<a href="#" class="internal-link internal-link-unstyled"><button>&#8593; back to top</button></a>
+{% when "backToJournal" %}
+<a href="journal" class="internal-link internal-link-unstyled"><button>&#8592; back to journal</button></a>
+{% when "seeMoreCategory" %}
+<a href="/{{ page.category }}s" class="internal-link internal-link-unstyled"><button>see more {{ page.category }}s &#8594;</button></a>
 {% else %}
-<a href="/{{ include.destinationURL }}{% if include.bottomNav %}s{% endif %}" class="internal-link internal-link-unstyled"><button>{% if include.bottomNav %}see more {% endif %}{{ include.buttonLabel }}{% if include.bottomNav %}s &#8594;{% endif %}</button></a>
-{% endif %}
+<a href="/{{ include.destinationURL }}" class="internal-link internal-link-unstyled"><button>{{ include.buttonLabel }}</button></a>
+{% endcase %}

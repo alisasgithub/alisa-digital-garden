@@ -38,7 +38,7 @@ permalink: /
 
     h2 {
       font-size: 1.3rem;
-      max-width: 75%;
+      min-width: 80%;
       margin: 1.8rem auto;
     }
 

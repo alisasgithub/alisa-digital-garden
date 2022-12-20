@@ -8,6 +8,34 @@ permalink: /notes
 
 ## Across the web
 
+{% assign noteTitle = site.notes | where: "category", "note" | sort: "title" %}
+
+{% for note in noteTitle %}
+{{note.title}}
+{% endfor %}
+
+{% assign listOfNotesWithoutBooks = "" %}
+
+{% for note in noteTitle %}
+{% for book in site.data.books %}
+{% if note.title == book.title %}
+{% assign isBook = true %}
+{% break %}
+{% else %}
+{% assign isBook = false %}
+{% endif %}
+{% endfor %}
+{% if isBook == true %}
+I'm a book!
+{% else %}
+{{note.title}}
+{% endif %}
+{% endfor %}
+
+{{listOfNotesWithoutBooks}}
+
+
+
 {% assign listOfNotes = site.notes | where: "category", "note" | sort: "title" %}
 <div id="wiki">
 {% include list.html listType="outline" %}
@@ -46,7 +74,6 @@ permalink: /notes
 
     #books li {
       list-style: none;
-      font-size: 1.2rem;
       transition: all .2s ease-in-out; 
     }
 

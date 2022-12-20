@@ -7,12 +7,12 @@ class: visuals
 
 # Visuals
 
-{% include button.html destinationURL='journal' buttonLabel='&#8249; back to journal' %}
+{% include button.html destinationURL='journal' buttonLabel='&#8592; back to journal' %}
 {% assign listOfNotes = site.notes | where: "category", "visual" | reverse %} 
 {% include list.html listType="img" %}
 
 <div class="bottom-nav">
-{% include button.html destinationURL='journal' buttonLabel='&#8249; back to journal' %}{% include button.html backToTop=true %}
+{% include button.html buttonType="backToJournal" %}{% include button.html buttonType="backToTop" %}
 </div>
 
 <style>

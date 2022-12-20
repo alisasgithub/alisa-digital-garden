@@ -21,7 +21,7 @@ permalink: /thoughts
 {% endfor %}
 
 <div class="bottom-nav">
-{% include button.html destinationURL='journal' buttonLabel='&#8249; back to journal' %}{% include button.html backToTop=true %}
+{% include button.html buttonType="backToJournal" %}{% include button.html buttonType="backToTop" %}
 </div>
 
 <style>
@@ -32,5 +32,5 @@ permalink: /thoughts
     article > h2 {
         font-size: 1.2rem;
     }
-    
+
 </style>

@@ -3,7 +3,7 @@ layout: book
 title: "Because Internet"
 date: 2022-01-06
 tag: [ internet culture, linguistics ]
-category: book notes
+category: note
 ---
 
 This book is alllll about internet linguistics. Internet linguistics are a new branch of linguistics that examines new language patterns that have emerged as a result of the internet. This kinda stuff:

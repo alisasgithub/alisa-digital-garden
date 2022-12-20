@@ -9,6 +9,9 @@ layout: default
     <content>
       {{ content }}
     </content>
+    <div class="bottom-nav">
+        {% include button.html buttonType="backToTop" %}{% include button.html buttonType="seeMoreCategory" bottomNav=true %}
+    </div>
     <div class="shell">
       {% include backlinks.html %}
     </div>

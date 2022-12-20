@@ -3,7 +3,7 @@ layout: book
 title: "Your Brains Not Broken"
 date: 2022-04-25
 tag: [ self help, neurodivergence ]
-category: book notes
+category: note
 ---
 
 People with ADHD tend to be motivated by *interest* rather than *importance* or *priority*. Tasks that *are* important are dealth with through varying levels of anxiety and/or avoidance. Coping -- i.e., forced motivation -- comes in different forms:

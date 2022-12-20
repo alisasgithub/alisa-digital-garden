@@ -45,7 +45,7 @@ permalink: /journal
     </div>
 </div>
 
-{% include button.html backToTop=true %}
+{% include button.html buttonType="backToTop" %}
 
 <style>
     button {

@@ -3,7 +3,7 @@ layout: book
 title: "How to Do Nothing"
 date: 2022-01-06
 tag: [ social media, internet culture ]
-category: book notes
+category: note
 ---
 
 - "I am concerned about the effects of current social media on expression. Including the right to not express oneself and it’s deliberately addicting features" 

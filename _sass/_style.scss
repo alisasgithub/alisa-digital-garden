@@ -70,10 +70,6 @@ body {
     @media (min-width: 820px) {
       width: 80%;
       max-width: 2200px;
-
-      p {
-        font-size: 1.2rem;
-      }
     }
   
     @media only screen and (max-width: 1200px) {
@@ -1027,7 +1023,7 @@ span.newthought {
   -moz-column-count:2;
   -moz-column-gap:1rem;
   column-count:2;
-  column-gap:1.3em;
+  column-gap:0.5em;
   margin: 3em 0;
 
   ul {
@@ -1043,7 +1039,6 @@ span.newthought {
   img {
     width: 100% !important;
     height: auto !important;
-    margin-bottom:1rem; /* to match column gap */
   }
 
   @media (max-width: 700px) {

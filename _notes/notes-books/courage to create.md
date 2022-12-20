@@ -3,7 +3,7 @@ layout: book
 title: "Courage to Create"
 date: 2022-04-09
 tag: [ anthropology, creativity ]
-category: book notes
+category: note
 ---
 
 Rollo May describes creativity as *the encounter of the intensively conscious human being with their world.*
