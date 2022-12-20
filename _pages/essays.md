@@ -6,7 +6,28 @@ permalink: /essays
 
 # Essays
 
-{% include list.html listType="simple" listCategory="essay" listGrowth=true listTime=true %}
+{% assign listOfNotes = site.notes | where: "category", "essay" | last_modified_date_sort: false %}
+<div class="container">
+    {% for note in listOfNotes %}
+        <div class="row">
+            <div class="grid-list-title">
+                <a class="internal-link" href="{{ note.url }}">
+                    {{ note.title }}
+                </a>
+            </div>
+            <div class="grid-list-metadata">
+              <div class="grid-list-time">
+                  <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
+                      <span>{% include icon-pencil.html %} {{ note.last_modified_at | date: "%-m-%y " }}</span>
+                  </time>
+              </div>
+              <div class="grid-list-growth">
+                  {% include growth-stage.html growth=note.growth %}
+              </div>
+            </div>
+        </div>
+    {% endfor %}
+  </div>
 
 <style>
     @media (max-width: 600px) {
@@ -38,45 +59,23 @@ permalink: /essays
     flex-direction: row;
     flex-wrap: wrap;
     margin: 2rem 0;
-  }
-  
-  .column {
-    flex-basis: 100%;
+    justify-content: space-between;
   }
 
-  .grid-list-title.column {
-    flex: 7.5;
+  .grid-list-metadata {
+    display: flex;
+    min-width: 160px;
   }
 
-  .grid-list-time.column {
-    flex: 1.2;
-  }
 
-  .grid-list-growth.column {
-    flex: 1;
+  .grid-list-time {
+    min-width: 80px; 
   }
   
   @media screen and (max-width: 800px) {
-    .column {
-      flex: 1;
-    }
+    width: auto;
   }
-
-  @media only screen and (min-width: 800px) and (max-width: 1200px) {
-  .grid-list-title.column {
-    flex: 7.5;
-  }
-    
-    .blank.column {
-      flex: 1.5;
-    }
-  }
-
-  @media only screen and (min-width: 601px) and (max-width: 800px) {
-    .blank.column {
-      flex: 0;
-    }
-  }
+  
 
   @media screen and (max-width: 600px) {
     .container {
@@ -89,26 +88,20 @@ permalink: /essays
       justify-content: center;
     }
 
+    .grid-list-metadata {
+      justify-content: center;
+      margin: 0.5rem 0;
+    }
+
     .grid-list-title {
       text-align: center;
       line-height: 1.6;
+      width: 100%;
     }
 
-    .grid-list-title.column {
-      flex-basis: 100%;
+    .grid-list-title a.internal-link {
+      font-size: 1.2rem;
     }
 
-    .grid-list-time.column {
-      flex: 0 1 auto;
-      padding-right: 0.75rem;
-    }
-
-    .grid-list-growth.column {
-      flex: 0 1 auto;
-    }
-
-    .blank.column {
-      flex: 0;
-    }
   }
 </style>

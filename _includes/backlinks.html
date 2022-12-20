@@ -1,16 +1,19 @@
 {% if page.backlinks.size > 0 %}
+{% assign backlinks = page.backlinks | sort: 'category' %}
+
     <div id="backlinks" style="font-size: 0.9em">
-        <h3 class="newthought">Connected plant matter</h3>
+        <hr>
+        <h3 class="newthought">Pages that link here</h3>
         <div>
-            {% for backlink in page.backlinks %}
+            {% for backlink in backlinks %}
             <a class="internal-link list-link" href="{{ site.baseurl }}{{ backlink.url }}">
                 <div class="list-item">
                     <h4 class="backlink-title">
                         {{ backlink.title }}
                     </h4>
-                    {% include growth-stage.html growth=backlink.growth %}
                     <span class="tag sans">{{ backlink.category }}</span>
-                    <p style="font-size: 1em">{{ backlink.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 25 }}</p>
+                    {% if backlink.growth %}{% include growth-stage.html growth=backlink.growth %}{% endif %}
+                    <p style="font-size: 1em">{{ backlink.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 35 }}</p>
                 </div>
             </a>
             {% endfor %}

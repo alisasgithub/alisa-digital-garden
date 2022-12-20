@@ -10,7 +10,7 @@ class: photoessay
 
 <div>
     <h1>{{ page.title }}</h1>
-    {% include metadata.html layoutType="photoessay" %}
+    {% include metadata-note.html layoutType="photoessay" %}
 
     <div id="notes-entry-container">
     <content>
@@ -36,6 +36,10 @@ class: photoessay
       #backlinks {
           width: 75%;
           margin: 0 auto;
+      }
+
+      hr {
+        border-top: 1px solid #EDECE8;
       }
       
   </style>

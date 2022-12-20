@@ -7,6 +7,17 @@ class: visuals
 
 # Visuals
 
-<a href="/journal" class="internal-link internal-link-unstyled"><button>&#8249; back to journal</button></a>
+{% include button.html destinationURL='journal' buttonLabel='&#8249; back to journal' %}
+{% assign listOfNotes = site.notes | where: "category", "visual" | reverse %} 
+{% include list.html listType="img" %}
 
-{% include list.html listType="img" listCategory="photo" %}
+<div class="bottom-nav">
+{% include button.html destinationURL='journal' buttonLabel='&#8249; back to journal' %}{% include button.html backToTop=true %}
+</div>
+
+<style>
+    .bottom-nav {
+        max-width:760px;
+        margin: 0 auto;
+    }
+</style>

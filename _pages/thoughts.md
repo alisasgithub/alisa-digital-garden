@@ -6,19 +6,23 @@ permalink: /thoughts
 
 # Thoughts
 
-<a href="/journal" class="internal-link internal-link-unstyled"><button>&#8249; back to journal</button></a>
+{% include button.html destinationURL="journal" buttonLabel="&#8249; back to journal" %}
+
+```// weird bug happening with each post```
 
 <hr>
 
 {% assign thoughtPosts = site.notes | where: "category", "thought" | sort: 'date' | reverse %}
-
-{% for p in thoughtPosts %}
+{% for note in thoughtPosts %}
 <article>
-<h1>{{ p.title }}</h1>
-{{ p.content }}
+<h1>{{ note.title }}</h1>
+{{ note.content }}
 </article>
-<hr>
 {% endfor %}
+
+<div class="bottom-nav">
+{% include button.html destinationURL='journal' buttonLabel='&#8249; back to journal' %}{% include button.html backToTop=true %}
+</div>
 
 <style>
     article > h1 {
@@ -28,4 +32,5 @@ permalink: /thoughts
     article > h2 {
         font-size: 1.2rem;
     }
+    
 </style>

@@ -1,0 +1,5 @@
+{% if include.backToTop == true %}
+<a href="#" class="internal-link internal-link-unstyled"><button>&#8963; back to top</button></a>
+{% else %}
+<a href="/{{ include.destinationURL }}{% if include.bottomNav %}s{% endif %}" class="internal-link internal-link-unstyled"><button>{% if include.bottomNav %}see more {% endif %}{{ include.buttonLabel }}{% if include.bottomNav %}s &#8594;{% endif %}</button></a>
+{% endif %}

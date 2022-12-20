@@ -3,14 +3,12 @@ layout: default
 ---
 
 <article>
-    <h1>{{ page.title }}</h1> 
   {% include metadata-book.html layoutType="note" %}
   <div id="notes-entry-container">
     <h2>Notes and reflections</h2>
     <content>
       {{ content }}
     </content>
-    <hr>
     <div class="shell">
       {% include backlinks.html %}
     </div>

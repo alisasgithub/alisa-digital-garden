@@ -8,14 +8,14 @@ permalink: /notes
 
 ## Across the web
 
+{% assign listOfNotes = site.notes | where: "category", "note" | sort: "title" %}
 <div id="wiki">
-    {% include list.html listType="outline" listCategory="research notes" %}
+{% include list.html listType="outline" %}
 </div>
 
 ## Book notes
 
 {% assign bookList = site.data.books | sort: "date-completed" | reverse %}
-
 <div id="books">
   <ul>
   {% for book in bookList %}
@@ -32,7 +32,7 @@ permalink: /notes
 <style>
     #books ul {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       padding-left: 0;
       grid-gap: 2rem;
     }

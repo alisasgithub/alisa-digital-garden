@@ -5,54 +5,45 @@ id: home
 permalink: /
 ---
 
-# {{ site.title }} is a <span class="block">Digital Garden<span>.
+# {{ site.title }} is a <span class="block">digital garden<span>.
 
-## [[plants|See **Plants**, <span class="newthought">aka</span> <span style="display:inline-block">Active Projects <span class="color-primary grow">&#8594;</span></span>]]
-
-Mainly longform writing and photography. Each project has a <span class="tag tag-growth sans">🪴 growth stage</span> that describes how far along it is. 
-
-## [[roots|See **Roots**, <span class="newthought">aka</span> <span style="display:inline-block">Ideas & Process <span class="color-primary grow">&#8594;</span></span>]]
-Collections of random thoughts, observations, and piecemeal notes on a bunch of different topics.
-
-## [[digital garden|Wtf is a garden? <span class="color-primary grow">&#8594;</span>]]
+## a [[digital garden]] is a space for thinking through, <span class="block-desktop">coming back to, and building upon.</span>
 
 <style>
-  @media (max-width: 400px) {
-    h1, h2 {
-      text-align: left;
-    }
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 3.8rem;
   }
 
-  .wrapper {
-    max-width: 46em;
-  }
-
-  h2:first-of-type {
-    margin-top: 3rem;
-  }
-
-  h2#changelog- {
-    font-size: 1.4rem;
-  }
-
-  hr {
-    margin: 4rem 0;
-  }
-
-  .page h2 a {
-    transition: color 200ms;
-    border-bottom: none;
-    color: #1a1a1a;
-    background-color: transparent;
-  }
-
-  .page h2 a:hover {
-    border: none;
-    background-color: transparent;
-    color: #E53109 !important;
+  h2 {
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 400;
   }
 
   .block {
     display: inline-block;
+  }
+
+  .block-desktop {
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 2.8rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      max-width: 75%;
+      margin: 1.8rem auto;
+    }
+
+    .block-desktop {
+      display: inline;
+    }
   }
 </style>

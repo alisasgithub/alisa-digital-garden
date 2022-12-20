@@ -21,12 +21,9 @@
             </div>
             <div class="book-time">
                 <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
-                    <span><span class="iconify" data-icon="cil:pencil" style="color: #5c5c5c; padding-right: 2px;" data-width="17"></span> <span class="sans">Last updated</span> {{ page.last_modified_at | date: "%-m/%-d/%y" }}</span>
+                    <span>{% include icon-clock.html %} <span class="sans">Created</span> {{ page.date | date: "%-m/%-d/%y" }}</span>
                 </time>
             </div>
         </div>
-    </div>
-    <div style="margin-top:2rem;">
-        <!-- {% include growth-stage.html growth=page.growth %} -->
     </div>
 </div>
