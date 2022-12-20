@@ -4,7 +4,7 @@ title: Changelog
 permalink: /changelog
 ---
 
-# Growth history 🌿
+# Changelog
 
 {% assign listOfNotes = site.notes | last_modified_date_sort: false %}
 <div id="changelog">
@@ -24,7 +24,7 @@ permalink: /changelog
         <div class="changelog-post">
           <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
           <span class="changelog-tags">
-            {% include growth-stage.html growth=note.growth %}
+            {% if note.growth %}{% include growth-stage.html growth=note.growth %}{% endif %}
             <span class="tag sans">{{ note.category }}</span>
           </span>
         </div>
@@ -36,5 +36,5 @@ permalink: /changelog
       </div>
     </div>
   {% endfor %}
-  <div class="changelog-end sans">FIN!</div>
+  <div class="changelog-end mono">FIN!</div>
 </div>

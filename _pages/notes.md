@@ -8,35 +8,9 @@ permalink: /notes
 
 ## Across the web
 
-{% assign noteTitle = site.notes | where: "category", "note" | sort: "title" %}
+{% assign bookTitles = site.data.books | map: "title" %}
 
-{% for note in noteTitle %}
-{{note.title}}
-{% endfor %}
-
-{% assign listOfNotesWithoutBooks = "" %}
-
-{% for note in noteTitle %}
-{% for book in site.data.books %}
-{% if note.title == book.title %}
-{% assign isBook = true %}
-{% break %}
-{% else %}
-{% assign isBook = false %}
-{% endif %}
-{% endfor %}
-{% if isBook == true %}
-I'm a book!
-{% else %}
-{{note.title}}
-{% endif %}
-{% endfor %}
-
-{{listOfNotesWithoutBooks}}
-
-
-
-{% assign listOfNotes = site.notes | where: "category", "note" | sort: "title" %}
+{% assign listOfNotes = site.notes | where: "category", "note" | where_in: bookTitles, "title", true | sort: "title" %}
 <div id="wiki">
 {% include list.html listType="outline" %}
 </div>
@@ -109,29 +83,6 @@ I'm a book!
     h2:first-of-type {
       margin-top: 3rem;
     }
-
-   #wiki ul {
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-      column-count: 3;
-    }
-
-    @media (max-width: 800px) {
-      #wiki ul {
-        -moz-column-count:    1;
-        -webkit-column-count: 1;
-        column-count:         1;
-      }
-    }
-
-    @media only screen and (min-width: 800px) and (max-width: 1200px) {
-      #wiki ul {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-        }
-    }
-
 
 
 </style>
