@@ -37,7 +37,7 @@ For my garden, I also wanted to include more creative and personal content but i
 
 As a concept, digital gardens are interesting to me because it feels like a new form of blogging that is in line with some of the values underlying how [[genz|Gen Z]] are reclaiming personal expression as a response to the conformation and corporatized aesthetic created through social media sites of the 2010's. 
 
-Digital gardens are idiosyncratic by definition -- you can't fake authenticity through ideas and topics that you find interesting, nor can an algorithm decide not to show that content to their friends anymore. Corporations can't track your every move (depending on the garden), and they can't monetize your interests or values. Your digital garden is *your* little corner of the internet.
+Digital gardens are idiosyncratic by definition -- you can't fake authenticity through ideas and topics that you find interesting, nor can an algorithm decide not to show that content to their friends anymore. Corporations can't track your every move{% include sidenote.html sidenote="I guess that's not true depending on how much data someone's site collects, but knock on wood." sidenoteID="test" %}, and they can't monetize your interests or values. Your digital garden is *your* little corner of the internet.
 
 ## Further reading
 
