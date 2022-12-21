@@ -14,24 +14,37 @@ I originally started with Maxime Vaillancourt's [Digital Garden Jekyll template]
 
 ## Visual style 
 
-The visual style of my site is based mostly on [Tufte CSS](https://edwardtufte.github.io/tufte-css/), with some modifications for accessibility and interaction design. I also kept some of Maxime's original styling, like hyperlinks. 
+I use three typefaces, all through [Adobe Fonts](https://fonts.adobe.com/):
+
+- Freight Text Pro
+- <span class="sans">Freight Sans Pro</span>
+- <span class="mono">Nitti</span>
+
+I also use a couple of Maxime's original styling, like deeplinks and hover states.
 
 ## Site structure
 
-Each page on this site is either a **Plant** or a **Root**. Plants are front-facing projects, and Roots are process docs, each with their own type of label depending on progress:
+### Essays
+
+Essays are longform content where I develop an opinion or point of view. Each essay has a growth stage associated with it to help give an idea of how much thought I've put into it so far, and they're also organized by <span class="mono">last updated</span> since they're worked on over time.
 
 <ul class="list-x sans">
     <li><span class="tag tag-gr1 sans no-margin-left"></span> Freshly planted ideas that need more exploring.</li>
     <li><span class="tag tag-gr2 sans no-margin-left"></span> Has a good foundation. More growth is expected.</li>
     <li><span class="tag tag-gr3 sans no-margin-left"></span> Fairly established. Minor edits might still happen. </li>
-    <li><span class="tag tag-grx sans no-margin-left"></span> This is just a note. No progress. No strings attached.</li>
 </ul>
 
-{% include figure.html imgURL="/assets/site-structure.jpg" %}
+### Notes
 
-## Site navigation
+Notes are collections of information, observations, and sources for random topics that catch my eye. They're organized alphabetically to make it easy to find a particular topic.
 
-This site does not organize content by chronology like blogs and feeds do. It also does not suggest content by algorithm based on your past behavior. Rather, it organizes content through connections to other pieces of content through hyperlinks and backlinks, with the goal being to navigate through a **network of ideas** based on your interests and whims. 
+### Journal
+
+The journal is my outlet for everything else I feel like sharing. Right now, it's divided into **thoughts** and **visuals** where it houses photos, life updates, and streams of consciousness.
+
+They're organized chronologically because timeliness -- i.e. the whatabouts of my life as a timestamp of that moment -- is the most valuable part about it. 
+
+## Hyperlinks
 
 There are two link styles depending on type:
 
@@ -40,7 +53,7 @@ There are two link styles depending on type:
 
 ## Site meta notes
 
-I like to process textually, leave notes for myself, and signpost the shit out of my thinking in a way that's separate from the content itself. I do that through the form of meta notes.
+I like to process textually by leaving notes for myself, separate from the content. I do that through the form of meta notes.
 
 ```// This is a meta note.```
 
