@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Dude, I used to be so insecure"
-date: 2022-05-03
+date: 2023-01-09
 tag: [ creative ]
 growth: growth-1
 category: essay
