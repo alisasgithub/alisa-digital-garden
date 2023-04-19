@@ -561,7 +561,7 @@ ul {
   &.list-outline { 
     display: flex;
     flex-flow: column wrap;
-    height: 18rem;
+    height: 20rem;
 
     @media screen and (max-width: 450px) {
       height: auto;
