@@ -31,3 +31,4 @@ Lastly, the act of using tools for thought is just a really elevated example of 
 - [Designing a better thinking-writing medium](https://thesephist.com/posts/medium/)
 - [The web browser as a tool of thought](https://thesephist.com/posts/browser/)
 - [Thought as a technology](https://cognitivemedium.com/tat/index.html)
+- [Notation as a tool of thought](https://www.jsoftware.com/papers/tot.htm)
