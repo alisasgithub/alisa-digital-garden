@@ -1,20 +1,20 @@
 ---
 layout: note
-title: "Cheugy is proof we're in a post-fashion world"
+title: "'Cheugy' is giving post-fashion"
 date: 2022-05-18
 tag: [ fashion, internet culture, linguistics ]
 growth: growth-2
 category: essay
-changelog: "Started to revise some wording and and pulled in Mina Le's video. Thinking through the outline structure and wondering if I need to flip some sections around."
+changelog: "Tightening up. Still feels incomplete to me, so leaving it as a sprout."
 ---
 
-🚧 *v incomplete article, tread with caution!*
+Cheugy is new. We haven't had a word before to describe the vague feeling you get when something is not *quite* on-trend, or is trendy on paper while execution falls short. Repulsion usually follows. 
 
-We haven't really had a word before to describe something that's not *quite* on-trend, or is trendy on paper while execution falls short. "Cheugy" fills that descriptive void. It can be loud and in-your-face like Millenial fashion or subtle and largely comprised of <span class="newthought">iykyk</span> knowledge -- kind of like knowing whether a scuffed-up vase is vintage from the 70's or manufactured by Target and picked up from a sale bin. 
+There are some obvious examples, which are easy enough to categorize: Minions, Pinterest, Live Laugh Love. It can also be niche and subtle: some vase might *look* vintage to the untrained eye, but u know it's *for sure* mass manufactured by TJ Maxx. The only evidence being that it fits into the surrounding decor a little too conveniently.
 
-As a word, the definition of cheugy is simultaneously a perfect descriptor *and* incredibly difficult to articulate. Our need for such a word is perfect evidence that we're knees-deep in a post-fashion & post-trend world. In the past days of delineated, top-down fashion trends, we never needed [14 year olds to make up words](https://www.nytimes.com/2021/04/29/style/cheugy.html) to fill a linguistic void. 
+As a word, the definition of cheugy is simultaneously a perfect descriptor *and* incredibly difficult to articulate precisely. I think that our need for such a word is evidence that we're knees-deep in a post-fashion & post-trend world. In the past days of delineated, top-down fashion trends where we all shared the same opinions, we never needed [14 year olds to make up words](https://www.nytimes.com/2021/04/29/style/cheugy.html) to fill a linguistic void. But these days are different.
 
-## Cheugy steps in where trends get blurry
+### Cheugy steps in where trends get blurry
 
 Why invent a whole new word? Why not simply say "off trend" or "uncool"? 
 
@@ -30,37 +30,19 @@ This is fairly consistent across the fashionsphere. Li Edelkoort, a top trend fo
 
 We've also seen fashion trends devolving into meaninglessness in the consumer world, like with the rise of normcore in early 2010's despite the [entire trend being contrived](https://www.highsnobiety.com/p/trend-forecasting-how-to/) by an art collective "in the spirit of fan fiction". honestly, based. There was also the "Top 20 trends of 2020" lists that circulated Pinterest at the tail end of that year, as if the entire world hadn't been sitting at home in sweats. 
 
-## So whats coooooool then
+## Self-expression &#x2194; identity
 
-Disregarding the clumsy fall of fashion as an institution, the internet has brought a new context for self-expression through clothing. 
+Even ignoring the clumsy fall of fashion as an institution for a moment, the internet has done enough on its own to create a new understanding of what our style says about who we are. Before the neverending social media feeds full of inspo, fashion bloggers were demonstrating that it's not only possible to break free from trends, but that when we do so, we unearth a vibe that is wholly *that person* in a way that Forever 21 could never.
+
+With so many bloggers and influencers pulling at our inspo senses in different aesthetic directions, it's hard for normies like us to stick to one taste. Instead, we end up taking bits and pieces that resonate with us -- [memes, references, and remixes](https://www.highsnobiety.com/p/special-report-post-genre-fashion-future/) -- and start trying to find our own flavor of *that person*. 
 
 <blockquote>
-    Before, we dressed to belong; now, we dress to stand out.
+    Before, we dressed to belong; <br>now, we dress to stand out.
 </blockquote>
 
 ## Cheugy is a farewell
 
-Given all of this, I think the introduction of cheuginess as a descriptor marks the end of an era. The downfall of the trends it represents is not dissimilar to the downfall of department stores and the detached consumerism of fast fashion. As consumers become increasingly interested in sustainable, unique pieces and increadingly frustrated with the damage and greed of corporations, a word like "cheugy" helps shape a mindset that celebrates creativity and responsibility in a timeless way. 
-
-Outline
-
-- Cheuginess, definition
-- What makes cheuginess different? More abstract and etheral; only useful in a world where there's no concrete trend to point to as uncool because it's moving so quickly.
-- Cyclical nature of fashion: Trends have always existed, and it was easy to point at what was "out" based on what was 
-- Fashion has sped up incredibly, to the point that cycles are starting back before they even have a chance to fizzle out properly
-    - Loss of power from fashion giants
-    - Fall of Fashion with capital F
-- Meaninglessness of trends -- see normcore, see ads being like "hottest trends of 2020" when we were locked up in our rooms
-- Linguistically, words are always 
-
-Before, we dressed to belong; now, we dress to stand out.
-Popular looks are created by “regular” people doing creative things with their clothes, and this creativity is what we are buying
-No one on the Internet speaks in genres. They speak in memes, references, and remixes. 
-https://www.highsnobiety.com/p/special-report-post-genre-fashion-future/
-
-
-Normcore being launched by an art collective "in the spirit of fan fiction". Ultimate irony
-
+Given all of this, I think the introduction of cheuginess as a neologism marks the end of an era. The downfall of the trends it represents is not dissimilar to the downfall of department stores and the detached consumerism of fast fashion. As consumers become increasingly interested in sustainable, unique pieces and increadingly frustrated with the damage and greed of corporations, a word like "cheugy" helps shape a mindset that celebrates creativity and responsibility in a timeless way. 
 
 
 

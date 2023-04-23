@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/maximevaillancourt/jekyll-last-modified-at
-  revision: e0c918691db625401ef5850a030da59d0124d356
-  branch: add-support-for-files-in-git-submodules
+  revision: 173bcfda0375fab2f49ea9f5dfaa36d8aa957056
+  branch: master
   specs:
     jekyll-last-modified-at (1.3.0)
       jekyll (>= 3.7, < 5.0)
@@ -83,4 +83,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.3
+   2.3.0
