@@ -25,29 +25,30 @@ Mycelia are a network of fungus roots that grow under the ground and are also us
 
 <style>
     #mycelia img {
-        max-width: 2rem;
+        max-width: 1.5rem;
         vertical-align: middle;
         box-shadow: none;
         padding-right: 0.4rem;
+        border-radius: 0;
     }
 
     #mycelia ul.list-outline {
-        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+
+    #mycelia ul.list-outline li {
+        width: auto;
     }
 
     #mycelia .site-title {
         vertical-align: bottom;
     }
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 600px) {
         #mycelia ul.list-outline {
             grid-template-columns: 1fr;
-        }
-    }
-
-    @media only screen and (min-width: 450px) and (max-width: 1000px) {
-        #mycelia ul.list-outline {
-            grid-template-columns: 1fr 1fr;
         }
     }
 
